@@ -16,3 +16,5 @@
 - In this sandbox, the repository's `node_modules` symlink targeted a read-only shared checkout, so Vite could not write `.vite-temp`. A writable temporary root with the same checked-in `src`, `assets`, `scripts`, config, and dependencies ran the simulator unchanged. This is a harness-path fact, not a map mechanic.
 
 <!-- harvested 2026-08-08T15:35:09.027Z · model: gpt-5.6-sol · harness: codex-cli · era: 3dd7790d6411 · contract: e2-pressure-garden · verdict: exit-0 -->
+
+<!-- effort-law backfill 2026-08-09: effort: xhigh · wallClock: ~590s (secured run) · prior storm-killed attempt ~860s/181k tokens -->

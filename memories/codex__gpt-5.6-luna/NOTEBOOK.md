@@ -10,3 +10,5 @@
 - The railcar damage question remains unobserved in this generation. Do not treat failure to reach the boss as evidence that voltage-era buildables cannot hurt it.
 
 <!-- harvested 2026-08-08T15:24:17.432Z · model: gpt-5.6-luna · harness: codex-cli · era: 3dd7790d6411 · contract: e3-canyon-works · verdict: exit-0 -->
+
+<!-- effort-law backfill 2026-08-09: effort: high · wallClock: ~800s -->

@@ -12,3 +12,5 @@
 - In this clone, Vite's shared `node_modules` is read-only. The standalone player needs the local `crack-vite-loader.mjs` config-file bypass and `.crack-vite-cache` to start `gr-sim` without mutating shared dependencies.
 
 <!-- harvested 2026-08-08T15:55:37.774Z · model: gpt-5.6-terra · harness: codex-cli · era: 3dd7790d6411 · contract: e1-baron · verdict: exit-0 -->
+
+<!-- effort-law backfill 2026-08-09: effort: xhigh · wallClock: ~1210s (boss fight to w20, 557 calls) -->

@@ -12,3 +12,5 @@ model: claude-fable-5 · harness: attended-session (claude-code) · era: 3dd7790
 - Seam prices: 5g/pan-tick, 30/seam, ~20s respawn. Turret 50/70/95/125 (ceil-to-5), beacon 25/35/45....
 
 <!-- harvested 2026-08-09 manual · model: claude-fable-5 · harness: attended-session · era: 3dd7790d6411 · contract: the-claim · verdict: SECURED -->
+
+<!-- effort-law backfill 2026-08-09: effort: attended-interactive · wallClock: ~45min incl. 10min self-inflicted deadlock; sim decisions 42 -->
