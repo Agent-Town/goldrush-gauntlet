@@ -4,7 +4,7 @@ One notebook per (harness, model) pair — "different models will yield very dif
 Every generation appended by a run carries a header:
     ## generation <n> — <ISO date>
     model: <exact model id> · harness: <name+version> · effort: <reasoning tier or n/a> · era: <sim era hash> · contracts: <played this generation>
-    cost: wallClock <s> · setupToFirstOutput <s> · tokens/$ where known
+    cost: wallClock (seconds) · setupToFirstOutput (seconds) · tokens/$ where known
 
 EFFORT LAW (owner 2026-08-09, verbatim: "Please also track the effort used for the models. That is important. Especially for prime-agent as it needs a lot of setup time. This is all about saving costs and helping future runs to be better."): every harvest records the reasoning-effort tier and the measured times; setup-heavy harnesses (prime-agent's daemon boot) get their setup priced separately from their thinking, so future runs budget honestly.
 Lessons follow as the mind wrote them. Era-stamped entries age honestly: a note citing a dead era's economics is visibly stale by its stamp.
