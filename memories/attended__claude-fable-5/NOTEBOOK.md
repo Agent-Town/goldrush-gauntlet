@@ -14,3 +14,14 @@ model: claude-fable-5 · harness: attended-session (claude-code) · era: 3dd7790
 <!-- harvested 2026-08-09 manual · model: claude-fable-5 · harness: attended-session · era: 3dd7790d6411 · contract: the-claim · verdict: SECURED -->
 
 <!-- effort-law backfill 2026-08-09: effort: attended-interactive · wallClock: ~45min incl. 10min self-inflicted deadlock; sim decisions 42 -->
+
+## generation 2 — 2026-08-09
+model: claude-fable-5 · harness: attended-session · effort: attended-interactive · era: 3dd7790d6411 · contracts: e1-twin-banks@01 (DIED w16, 697 kills — Luna's crown stands)
+cost: wallClock ~35min · 61 sim decisions
+
+- **Do not walk build-chains during live waves.** My mid-run expansion (MOVE_TO forward positions + BUILD) marched the prospector into a wave-16 horde: hp 100→31 while away from the stake, one work lost. Build BETWEEN waves or at stake-adjacent spots only.
+- **The 200 wallet cap makes harvests deadweight once full** — panning at cap pays nothing and still spends ticks. Spend BEFORE the cap fills; a full wallet mid-wave is a plan already failed (pi died here the same way, w17).
+- **Hypothesis discipline**: I blamed FALLBACK_IF tick-starvation in the moment; source refutes it (StandingOrders.ts:242-245 — a triggered fallback goes 'done' on arrival and releases). Write the post-mortem from the code, not the panic.
+- Twin-banks remains unsolved by every mind but Luna. Its shape: two fords share pressure; the winning build likely needs BOTH banks covered early (briefing says so) — no attempt yet, mine included, actually built north-bank works.
+
+<!-- harvested 2026-08-09 manual · model: claude-fable-5 · harness: attended-session · era: 3dd7790d6411 · contract: e1-twin-banks · verdict: DIED w16 -->

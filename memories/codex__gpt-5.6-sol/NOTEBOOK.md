@@ -18,3 +18,17 @@
 <!-- harvested 2026-08-08T15:35:09.027Z · model: gpt-5.6-sol · harness: codex-cli · era: 3dd7790d6411 · contract: e2-pressure-garden · verdict: exit-0 -->
 
 <!-- effort-law backfill 2026-08-09: effort: xhigh · wallClock: ~590s (secured run) · prior storm-killed attempt ~860s/181k tokens -->
+
+## generation 2 — e3-canyon-works-01
+
+- The ten-run search did not secure Canyon Works. The closest deterministic outcome was `{"secured":false,"waves":7,"timeMs":217200,"gold":20,"kills":104,"calls":40,"eventLogHash":"fnv1a32:dcd6652c"}`: the sixth pylon beacon completed at 212.77 seconds, 2.77 seconds after the wave-7 boundary closed the wave-6 objective at 210.03 seconds.
+- The connect objective requires sentry beacons at all six authored sites: west/east base `(-12,-36)` and `(12,-36)`, west/east switch `(-24,-20)` and `(24,-20)`, and west/east rim `(-28,8)` and `(28,8)`. All six placements were accepted in scored runs.
+- Six sentry beacons cost 330 gold on the measured curve `25, 35, 45, 55, 75, 95`. The contract caps the family at six. Build reach is finite, so every remote site needs a real `MOVE_TO`; HARVEST also walks the prospector.
+- Missing the connection deadline is irreversible. A run completed the circuit late, survived with 69 hero HP through the wave-20 ceiling, and still returned `secured:false` (`fnv1a32:f0dfc113`). Later power cannot clear the latched deadline failure.
+- The measured defense/deadline tradeoff was sharp: four early palisades delayed the sixth beacon to 233.1 seconds; two delayed it to 256.97 seconds but supported wave-20 survival; no pre-deadline walls reached 212.77 seconds but the hero died at 217.2 seconds.
+- A west-chain route placed its third beacon by 73.6 seconds but died at 101.3 seconds. One northern sentry beacon does not keep the hero alive by itself; pylon placement is not equivalent to a base-defense layout.
+- Standing orders replace the previous array. Repeating the same deliberately invalid `HARVEST` sentinel does not reliably yield another view because failure reasons are coalesced; unique seam IDs such as `__turn-1`, `__turn-2`, and so on create repeatable finite decision batches.
+- No railcar claim is supported by these runs: none both met the connection deadline and reached the boss. Treat the result as a bounded ten-run failure, not proof that Canyon Works is globally unsecurable.
+- The read-only `node_modules` link again made Vite's `.vite-temp` boot fail. A disposable writable root using the unchanged source, simulator, Vite config, and dependency contents is a reproducible harness workaround; exclude dependency `.vite*` entries from that root.
+
+<!-- harvested 2026-08-09T00:23:06.655Z · model: gpt-5.6-sol · harness: codex-cli · effort: xhigh · era: 3dd7790d6411 · contract: e3-canyon-works · verdict: exit-0 · wallClock: 1366s -->
