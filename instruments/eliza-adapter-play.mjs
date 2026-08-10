@@ -39,15 +39,44 @@ function askEliza(view, note) {
     try { const o = JSON.parse(t); if (o && typeof o.response === 'string') { reply = o.response; if (o.error || !o.response) process.stderr.write(`[eliza-envelope] success=${o.success} error=${o.error ?? '(none)'} responseChars=${o.response.length}\n`); break; } } catch {}
   }
   process.stderr.write(`[eliza-reply] ${reply.slice(0, 260).replace(/\n/g, ' ⏎ ')}\n`);
-  const m = /\[[\s\S]*\]/.exec(reply);
-  return m ? m[0].replace(/\n/g, ' ') : '[]';
+  // ORDER EXTRACTION, HARDENED (deadlock post-mortem 2026-08-10): the old greedy
+  // /\[[\s\S]*\]/ swallowed a leaked WEB_FETCH tool-schema fragment (brackets inside her
+  // internal JSON) and fed gr-sim an unparseable line — sim waited for valid orders, the
+  // adapter waited for a view, forever. Only a BALANCED array that PARSES and whose every
+  // element is an order-shaped object (has verb|kind) may pass; anything else is '[]'.
+  for (let start = reply.indexOf('['); start !== -1; start = reply.indexOf('[', start + 1)) {
+    let depth = 0; let inStr = false; let esc = false;
+    for (let i = start; i < reply.length; i++) {
+      const ch = reply[i];
+      if (esc) { esc = false; continue; }
+      if (ch === '\\') { esc = true; continue; }
+      if (ch === '"') { inStr = !inStr; continue; }
+      if (inStr) continue;
+      if (ch === '[') depth++;
+      else if (ch === ']') {
+        depth--;
+        if (depth === 0) {
+          const candidate = reply.slice(start, i + 1);
+          try {
+            const arr = JSON.parse(candidate);
+            if (Array.isArray(arr) && arr.every((o) => o && typeof o === 'object' && ('verb' in o || 'kind' in o))) {
+              return JSON.stringify(arr);
+            }
+          } catch { /* not this bracket — keep scanning */ }
+          break;
+        }
+      }
+    }
+  }
+  return '[]';
 }
 
 const sim = spawn('node', ['scripts/gr-sim.mjs', '--contract', contract, '--seed', seed], { cwd: REPO });
 sim.stdin.on('error', () => {}); // a late write after sim-exit is EPIPE, not a failure
 const rl = createInterface({ input: sim.stdout });
 let last = ''; let calls = 0; let rejectNote = null;
-const deadline = Date.now() + 25 * 60_000;
+const GAME_BUDGET_MS = Number(process.env.ELIZA_GAME_BUDGET_MS || 25 * 60_000);
+const deadline = Date.now() + GAME_BUDGET_MS;
 sim.stderr.on('data', (d) => { const s = String(d); if (s.includes('rejected orders')) rejectNote = s.slice(0, 300); });
 rl.on('line', (l) => {
   last = l;
@@ -66,12 +95,12 @@ sim.on('exit', () => {
   console.log(`ELIZA ${contract} calls=${calls} :: ${last.slice(0, 140)}`);
   // NOTEBOOK HARVEST (all-harness law): one lesson call, appended with the effort footer.
   try {
-    const memFile = '/Users/robin/Claude/Projects/gr-gauntlet/memories/eliza__deepseek-v4-flash/NOTEBOOK.md';
+    const memFile = process.env.ELIZA_STACK_DIR || '/Users/robin/Claude/Projects/gr-gauntlet/memories/eliza__deepseek-v4-flash/NOTEBOOK.md';
     const lessons = askEliza({ finalOutcome: last.slice(0, 300), contract, seed }, 'The run is OVER. Reply with 3-6 durable lessons about this map and era as a plain JSON array of strings (facts with evidence, for your future self). Nothing else.');
-    const wall = Math.round((Date.now() - (deadline - 25 * 60_000)) / 1000);
+    const wall = Math.round((Date.now() - (deadline - GAME_BUDGET_MS)) / 1000);
     appendFileSync(memFile, `\n## generation — ${new Date().toISOString().slice(0, 10)} ${contract}\n` +
       JSON.parse(lessons || '[]').map((l) => `- ${l}`).join('\n') +
-      `\n<!-- harvested auto · model: deepseek/deepseek-v4-flash · harness: eliza v2.0.3-beta.11 · effort: n/a · contract: ${contract} · verdict: ${last.slice(0, 60)} · wallClock: ${wall}s -->\n`);
+      `\n<!-- harvested auto · model: ${process.env.ELIZA_MODEL_LABEL || 'deepseek/deepseek-v4-flash'} · harness: eliza v2.0.3-beta.11 · effort: n/a · contract: ${contract} · verdict: ${last.slice(0, 60)} · wallClock: ${wall}s -->\n`);
   } catch (e) { console.error('notebook harvest failed:', String(e).slice(0, 100)); }
   process.exit(0);
 });

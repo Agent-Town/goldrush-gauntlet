@@ -49,3 +49,18 @@
 ---
 ## CORRECTION (attended, 2026-08-10) — the rounds above were never played
 Post-mortem of the Sol arm found every order file from BOTH flash rounds contains only `[]` lines: the benchmark envelope returned `response:""` (per-task default timeout 120000ms, error field unread by the adapter), and the adapter's `[]` fallback masked it as a "do nothing" choice. **All flash-round outcomes here are the idle baseline, not Eliza's play.** Lessons above describe what an unmanned run looks like on these maps; treat them as baseline data only. The cure (explicit `--timeout`, envelope-error logging) shipped in `eliza-adapter/play.mjs` the same day; her first REAL rows will land in a fresh generation dir.
+
+## generation — 2026-08-10 the-claim
+
+<!-- harvested auto · model: deepseek/deepseek-v4-flash · harness: eliza v2.0.3-beta.11 · effort: n/a · contract: the-claim · verdict: {"secured":false,"waves":5,"timeMs":160433,"gold":0,"kills": · wallClock: 8s -->
+
+## generation — 2026-08-10 the-claim
+
+<!-- harvested auto · model: deepseek/deepseek-v4-flash · harness: eliza v2.0.3-beta.11 · effort: n/a · contract: the-claim · verdict: {"secured":false,"waves":5,"timeMs":160433,"gold":20,"kills" · wallClock: 1656s -->
+
+## generation — 2026-08-10 the-claim
+
+<!-- harvested auto · model: deepseek/deepseek-v4-flash · harness: eliza v2.0.3-beta.11 · effort: n/a · contract: the-claim · verdict: {"secured":false,"waves":5,"timeMs":160433,"gold":0,"kills": · wallClock: 191s -->
+
+---
+NOTE (attended, 2026-08-10): the four empty "generation" headers above this line are Sol-arm harvest artifacts mis-labeled as flash by the adapter's then-hardcoded footer (fixed same day, env-driven now). Her real Sol generation lives in `memories/eliza__gpt-5.6-sol-codex/NOTEBOOK.md`.
