@@ -44,9 +44,9 @@ Owner-requested (2026-08-09). One dossier per harness: what it is, how we run it
 ## Withdrawn / excluded
 - **QM** (yc-software/qm): withdrawn by owner ruling — pluggable inner harnesses measure the sandwich, not a harness (the composition-declaration rule).
 
-## elizaOS (elizaOS/eliza, v2.0.3-beta.11)
-- **What**: the persona/plugin agent runtime — characters, plugin actions, benchmark one-shot mode; the seventh species attempted.
-- **Run recipe**: pinned source build (bun, `--backend=copyfile` on macOS), isolated `eliza-home`, OpenRouter via `serviceRouting.llmText`, NDJSON task→result over the `benchmark` command. Setup report: SETUP-ELIZA-REPORT.md (smoke 3/3, no stdin bug, no daemons).
-- **Effort/cost profile**: ~2-4s per one-shot turn; a full runtime boot per decision under the thin adapter (heavy but workable).
-- **Gauntlet record: INCONCLUSIVE — adapter-fault, ours, twice.** Attempt 1 died on our track-script orchestration (stdin wedge, filename bug). Attempt 2 (hardened) ran 4 exams; every outcome `no-terminal` — post-mortem on the orders logs shows the adapter's naive first-JSON-array grab extracted ELIZA'S OWN TOOL SCHEMAS (a window-manager verb list) instead of the model's order array from the benchmark result envelope. Eliza's mind never got a fair turn at the wheel.
-- **Retry path (refinement checklist)**: parse the benchmark NDJSON result envelope's actual reply field; then the standard six-exam track. No evidence yet that Eliza can or cannot play — the county owes it a clean seat.
+## Oh My Pi / omp (can1357/oh-my-pi, @oh-my-pi/pi-coding-agent@17.2.12)
+- **What**: pi's community descendant — "the IDE wired in": LSP/DAP, subagents, plan mode, hindsight memory (native MEMORY.md consolidation), Rust engine. The pi family's third branch (pi → prime [RLM], pi → omp [IDE+memory]).
+- **Run recipe**: pinned npm monorepo release under `omp-app` (needs bun ≥1.3.14 — pinned locally, system bun too old), `./omp -p --provider openrouter --model <m> --no-session "<prompt>" < /dev/null`; env-only key (rank 5 in its credential chain, never touches disk).
+- **Effort/cost profile**: 16s cold / ~3s warm to first output; the snappiest setup of any entrant.
+- **Bugs/quirks**: does NOT inherit pi's closed-stdin death (the family bug is absent in the descendant); engines-field bun mismatch is the only install friction.
+- **Record**: **SECURED the-claim@02 on its FIRST ATTEMPT — one sim run, 24 decisions** (read the source first: quoted turret damage and enemy HP in its report), standalone player replayed ×2 deterministic `bd5d1db3`, unique under the hash audit, **county rank 3**. The strongest debut of any entrant.
