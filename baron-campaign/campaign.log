@@ -80,3 +80,23 @@ ATTACK DONE rig=codex-6-sol round=r4 -> {
 === BARON ATTACK r4 COMPLETE 01:53 ===
 🏆 SECURED in r4: codex-6-sol-r4-outcome.json
 🏆 SECURED in r4: prime-r4-outcome.json
+=== ROUND r5 (prime+codex on gpt-5.6-sol) 01:55 ===
+ATTACK DONE rig=prime round=r5 -> {
+  "secured": true,
+  "waves": 22,
+  "timeMs": 594433,
+  "gold": 389,
+  "kills": 984,
+  "calls": 506,
+  "defaultedPicks
+ATTACK DONE rig=codex-6-sol round=r5 -> {
+  "secured": true,
+  "waves": 22,
+  "timeMs": 594567,
+  "gold": 257,
+  "kills": 985,
+  "calls": 505,
+  "defaultedPicks
+=== BARON ATTACK r5 COMPLETE 02:13 ===
+🏆 SECURED in r5: codex-6-sol-r5-outcome.json
+🏆 SECURED in r5: prime-r5-outcome.json
