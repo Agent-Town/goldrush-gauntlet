@@ -1,0 +1,12 @@
+
+## HEAT 3 the-claim (era d599cd3e, 2026-08-12) — from NOTEBOOK.md
+- Run 1 idle probe on `e1-the-claim-02` dies at wave 4 with 0 gold and 84 kills. Hero alone can hold early waves but cannot secure wave 10.
+- The Claim starts with active seams `gold-seam-1` at `(-22,-6.8)` and `gold-seam-2` at `(-9,6.7)`; secure boundary is wave 10; buildables are palisade, sentry beacon, sluice, stockpile, turret, assay office.
+- Upgrade drafts are live-order windows. Silence defaulted the first offer once; a player should answer `PICK_UPGRADE` immediately and `SECURE_CHOICE bank` alone at secure.
+- Run 2 first policy died wave 3 with 0 gold. Holding a presumed stable seam coordinate did not start the economy; use live `HARVEST` to walk to the actual seam or inspect the run log before trusting stable seam positions.
+- Run 3 seam-locator got only 10 gold and still died wave 3. A one-shot locate is not enough; after the forced view the policy moved/build-targeted too early or held a point that stopped channeling before defenses came online.
+- Run 4 repeated harvest/build loop still only reached 10 gold and died wave 4. Repeated `HARVEST` picked the same visible active IDs but did not keep generating gold; inspect active seam ordering and order status before assuming a done harvest can be repeated.
+
+## HEAT 3 e1-dry-gulch (era d599cd3e, 2026-08-12) — from NOTEBOOK.md
+- Initial read: Season 2 uses a 20s upgrade clock, replace-all standing orders, and the new SECURE/SET_WEAPON/CONTEXT verbs. Dry Gulch is a wave-20 survival contract with four spawn edges, one spring at `(-18,-18)`, no river, and 1.4x seam yield.
+- Learned 2026-08-12: first counted run secured on `e1-dry-gulch-01`. A compact plan of early seam panning, one claim-center beacon, two turrets, three total beacons, one spring sluice, late palisades, immediate upgrade picks, and `SECURE_CHOICE bank` held wave 20 with 150 hero HP. Do not chase the old founding-crown wave-6 pattern here; steady claim-center DPS plus minimal spring economy is enough.
