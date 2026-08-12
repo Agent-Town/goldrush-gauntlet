@@ -1,0 +1,14 @@
+{
+  "secured": true,
+  "waves": 22,
+  "timeMs": 591667,
+  "gold": 225,
+  "kills": 977,
+  "calls": 500,
+  "defaultedPicks": 0,
+  "defaultedSecure": 0,
+  "eventLogHash": "fnv1a32:a1b3e71a",
+  "runsSoFar": 3,
+  "player": "player.mjs",
+  "tape": "run-3-tape.json"
+}
