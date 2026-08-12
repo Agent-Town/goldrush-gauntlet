@@ -143,3 +143,12 @@ ATTACK DONE rig=codex-6-sol round=r14 -> {
   "kills": 985,
   "calls": 514,
   "defaultedPicks
+ATTACK DONE rig=prime round=r15 -> NONE
+ATTACK DONE rig=codex-6-sol round=r15 -> {
+  "secured": true,
+  "waves": 22,
+  "timeMs": 594433,
+  "gold": 389,
+  "kills": 984,
+  "calls": 506,
+  "defaultedPicks
