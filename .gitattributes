@@ -1,0 +1,2 @@
+baron-campaign/logs/prime-r1.log filter=lfs diff=lfs merge=lfs -text
+baron-campaign/logs/prime-r3.log filter=lfs diff=lfs merge=lfs -text

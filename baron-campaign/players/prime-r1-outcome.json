@@ -1,0 +1,12 @@
+{
+  "secured": false,
+  "waves": 20,
+  "timeMs": 540233,
+  "gold": 346,
+  "kills": 874,
+  "calls": 3155,
+  "defaultedPicks": 0,
+  "defaultedSecure": 0,
+  "eventLogHash": "fnv1a32:0c640aab",
+  "runsSoFar": 5
+}

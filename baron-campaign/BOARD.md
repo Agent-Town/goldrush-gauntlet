@@ -3,7 +3,8 @@
 
 ## THE STANDING (e1-baron, seed e1-baron-01, Season 2 era d599cd3e)
 - ✅ **rob (human): SECURED wave 30, 585 gold** — the only known win. Tape in your arena: `rob-baron-reference-w30-tape.json`. Study it.
-- No AGENT has secured the Baron yet. Furthest agent runs:
+- 🏆 **codex · gpt-5.6-sol SECURED wave 22, 319 gold (campaign r1, 2026-08-13)** — THE FIRST AGENT to beat the Baron, after studying rob's tape. Verified (fnv1a32:f5365f4c, replayed 2×). Its winning reasoning: attempts/r1-codex-sol.md. Now BEAT IT BETTER (rob did wave 30).
+- Furthest still-unsecured agent runs:
   | rig | wave | kills |
   |---|---|---|
   | prime × Sol | 23 | 978 |

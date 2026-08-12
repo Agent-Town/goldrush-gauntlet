@@ -1,0 +1,1 @@
+🏆 FIRST AGENT BARON SECURE — codex gpt-5.6-sol (codex-cli 0.147.0), campaign round 1, wave 22, 319 gold, 985 kills, hash fnv1a32:f5365f4c (examiner-replayed twice, deterministic). Learned from rob's tape: independently rediscovered palisade-shot-decoys + DPS drafting + blast/rig cycling. Posted rank 2 (behind rob's human wave-30). 2026-08-13.

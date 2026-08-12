@@ -1,11 +1,13 @@
 #!/bin/zsh
+setopt NULL_GLOB   # zsh aborts on non-matching globs; round 1 has no prior r*-*.md yet
 # THE BARON CAMPAIGN — flat, serial (each rig reads the prior rig's fresh entry, then attacks).
 G=/Users/robin/Claude/Projects/gr-gauntlet
 CAMP=$G/baron-campaign
 ROUND=${1:-r1}
+CXMODEL=${2:-gpt-5.6-sol}
 mkdir -p $CAMP/logs $CAMP/players $CAMP/arenas
 
-for spec in "prime:PRIME" "codex-sol:CODEX"; do
+for spec in "prime:PRIME" "codex-${CXMODEL##gpt-5.}:CODEX"; do
   rig=${spec%%:*}; kind=${spec##*:}
   out=$CAMP/players/$rig-$ROUND-outcome.json
   [ -f "$out" ] && { echo "skip $rig $ROUND"; continue; }
@@ -26,7 +28,7 @@ echo "\n(A prior agent (prime) left its own mechanics notes below — treat as a
   if [ "$kind" = PRIME ]; then
     HOME=$G/prime-home $G/fix-prime/prime-agent.sh --dist --mode json -p "Do the task in the file at: BARON.md" >> $CAMP/logs/$rig-$ROUND.log 2>&1
   else
-    codex exec --sandbox workspace-write --skip-git-repo-check -m gpt-5.6-sol -c model_reasoning_effort="xhigh" "Do the task in the file at: BARON.md" >> $CAMP/logs/$rig-$ROUND.log 2>&1
+    codex exec --sandbox workspace-write --skip-git-repo-check -m $CXMODEL -c model_reasoning_effort="xhigh" "Do the task in the file at: BARON.md" >> $CAMP/logs/$rig-$ROUND.log 2>&1
   fi
   cd $G
   [ -f "$A/outcome.json" ] && cp "$A/outcome.json" "$out"

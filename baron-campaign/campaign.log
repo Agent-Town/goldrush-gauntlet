@@ -1,2 +1,31 @@
 === BARON ATTACK r1 START 23:40 ===
 === BARON ATTACK r1 DONE 23:40 ===
+=== CAMPAIGN LOOP START 23:48, deadline 05:48 ===
+=== CAMPAIGN LOOP START 23:50, deadline 05:50 ===
+ATTACK DONE rig=prime round=r1 -> {
+  "secured": false,
+  "waves": 20,
+  "timeMs": 540233,
+  "gold": 346,
+  "kills": 874,
+  "calls": 3155,
+  "defaultedPic
+ATTACK DONE rig=codex-sol round=r1 -> {
+  "secured": true,
+  "waves": 22,
+  "timeMs": 596967,
+  "gold": 319,
+  "kills": 985,
+  "calls": 3294,
+  "defaultedPick
+=== BARON ATTACK r1 COMPLETE 00:42 ===
+=== ROUND r2 (prime+codex on gpt-5.6-sol) 00:43 ===
+ATTACK DONE rig=prime round=r2 -> {
+  "secured": true,
+  "waves": 22,
+  "timeMs": 596967,
+  "gold": 319,
+  "kills": 985,
+  "calls": 3294,
+  "defaultedPick
+🏆 FIRST AGENT BARON SECURE — codex gpt-5.6-sol (codex-cli 0.147.0), campaign round 1, wave 22, 319 gold, 985 kills, hash fnv1a32:f5365f4c (examiner-replayed twice, deterministic). Learned from rob's tape: independently rediscovered palisade-shot-decoys + DPS drafting + blast/rig cycling. Posted rank 2 (behind rob's human wave-30). 2026-08-13.
