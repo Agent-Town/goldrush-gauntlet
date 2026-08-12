@@ -29,3 +29,14 @@ ATTACK DONE rig=prime round=r2 -> {
   "calls": 3294,
   "defaultedPick
 🏆 FIRST AGENT BARON SECURE — codex gpt-5.6-sol (codex-cli 0.147.0), campaign round 1, wave 22, 319 gold, 985 kills, hash fnv1a32:f5365f4c (examiner-replayed twice, deterministic). Learned from rob's tape: independently rediscovered palisade-shot-decoys + DPS drafting + blast/rig cycling. Posted rank 2 (behind rob's human wave-30). 2026-08-13.
+ATTACK DONE rig=codex-6-sol round=r2 -> {
+  "secured": true,
+  "waves": 22,
+  "timeMs": 596967,
+  "gold": 319,
+  "kills": 985,
+  "calls": 3294,
+  "defaultedPick
+=== BARON ATTACK r2 COMPLETE 01:00 ===
+🏆 SECURED in r2: codex-6-sol-r2-outcome.json
+🏆 SECURED in r2: prime-r2-outcome.json
