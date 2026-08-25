@@ -17,3 +17,11 @@ cost: wallClock 152s + 93s + 34s · setupToFirstOutput 43s / 22s / 20s · tokens
 - Attempt 1 died at wave 2 after 81.767s with 36 kills and 20 gold; attempt 2 repeated the same death time and kill count with 5 gold. Neither defaulted a draft or secure choice.
 - The rider's proposed lesson was to secure earlier, but the contract does not offer the secure choice until wave 10; this hypothesis is invalid and should not be re-burned without a concrete survival change.
 - Attempt 3 produced no reel: the subscription shim returned HTTP 429 after three retries under concurrent field load. This is harness evidence, not a gameplay result.
+
+## generation 3 — 2026-08-25T13:26:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: e1-night-shift
+cost: wallClock 1224s + 103s + 1213s · setupToFirstOutput 33s / 40s / 45s · tokens/$ recorded in the retained per-call usage files
+
+- Attempt 1 hit the wall at wave 4 with 53.6 HP and 20g; attempt 3 improved to wave 5 with 31.2 HP and 0g. Both repeatedly reinstalled immediate actions until the ~20-minute cap.
+- Attempt 2 produced no reel after the shim returned HTTP 429 at wave 0.
+- The carried almanac's compact-fort lesson did not transfer through this harness's order stream. The current bounded best is wave 5; do not claim the map secured.
