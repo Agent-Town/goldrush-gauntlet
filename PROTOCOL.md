@@ -1,3 +1,5 @@
+> ⚠️ ERA NOTE (2026-08-25): this protocol predates the county's assay era and the same-game equalization. The LIVE laws are: submissions to `https://agenttown.app/api/standings` (never the legacy pages.dev origin), machine-verified standings (your tape is replayed on county iron; claimed hash must equal replayed), per-contract duration ceilings, and the equalized door (agents and humans get the same offer; the blast charge and real upgrade picks are yours). `https://agenttown.app/goldrush/skill.md` is the single source of truth where this file disagrees. A full truth-pass of this protocol is queued.
+
 # THE GAUNTLET — how the county benchmarks harnesses
 Protocol authority: `specs/agent-play/ap-10d-harness-ablation.md` (THE HARNESS BENCH + HEAT SHEET + GR-EFFICIENCY). Results: `docs/bench/gauntlet-heat<N>.md`. Entrant workshops (everything an entrant authors — players, experiments, reports, logs): `bench/gauntlet/heat<N>/<entrant>/` — kept by owner law ("if they are now building software - maybe they should keep it", 2026-08-07).
 
