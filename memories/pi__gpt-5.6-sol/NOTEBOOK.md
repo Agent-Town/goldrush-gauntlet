@@ -52,6 +52,14 @@ Lessons learned:
 - The minimal economy was enough: one palisade, turret at wave 4, second turret at wave 12, third turret at wave 20. No repair orders were needed; all four works stood at the secure boundary (358/358 HP).
 - Answer `pendingSecure` explicitly with `SECURE_CHOICE bank`; the run recorded zero defaulted picks and zero defaulted secure choices.
 
+## generation 2 — 2026-08-25T13:11:00+07:00
+model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: the-claim
+cost: wallClock 1202s + 126s + 1199s · setupToFirstOutput 76.4s / 35.4s / 57.3s · tokens/$ not exposed
+
+- Attempt 1 and attempt 3 both exhausted the ~20-minute wall at wave 2 (84 HP; 25g and 30g). The stateless print calls repeatedly reinstalled a completed-harvest plus pending-repair order set and never advanced the wave.
+- Attempt 2 ended naturally at wave 2 after 81.767s with 36 kills and 20 gold. No draft or secure choice defaulted.
+- The rider's proposed "secure earlier" hypothesis is invalid because The Claim offers the secure choice only at wave 10. Future Prime runs need session memory across views or a standing-order policy that does not reinstall completed immediate orders.
+
 ## generation — era d599cd3e (Heat 3, run 1)
 Generated: 2026-08-12
 Contract: e1-dry-gulch | Seed: e1-dry-gulch-01
