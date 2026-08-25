@@ -9,3 +9,11 @@ LEARNED: secured at wave 10; 296 kills, 54 gold remaining, 0 defaulted draft pic
 - Run 4, variant 4: corrected seam coordinates and live affordability checks still died at wave 5 (95 kills, 30 gold). The turret threshold was never reached before combat overwhelmed the hero; income was too slow. Next: use the cheap palisade as a damage sink around the claim while keeping rig fire active.
 - Run 5, variant 5: an eight-palisade ring increased time alive within wave 5 and kills to 110, but did not beat run 1's wave 6. Calls rose to 35 because movement/build attempts triggered extra boundaries; all choices remained explicit. Final attempt: exploit the run-1 beacon/harvest line but add palisade cover before its known wave-6 collapse.
 - Run 6, variant 6: mixed beacons, palisade cover, harvesting, and early fallback reached wave 6 for 201.833s with 136 kills and 32 gold, narrowly becoming the best line by survival time but not securing. Six-run cap reached. Era-d599cd3e conclusion: static claim defense without stronger progression cannot cross the wave-6 spike; automatic blast is not an opening substitute for the rig, and waiting BUILD orders must never precede survival actions unless already affordable.
+
+## generation 2 — 2026-08-25T12:33:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: the-claim
+cost: wallClock 152s + 93s + 34s · setupToFirstOutput 43s / 22s / 20s · tokens/$ recorded in the retained per-call usage files
+
+- Attempt 1 died at wave 2 after 81.767s with 36 kills and 20 gold; attempt 2 repeated the same death time and kill count with 5 gold. Neither defaulted a draft or secure choice.
+- The rider's proposed lesson was to secure earlier, but the contract does not offer the secure choice until wave 10; this hypothesis is invalid and should not be re-burned without a concrete survival change.
+- Attempt 3 produced no reel: the subscription shim returned HTTP 429 after three retries under concurrent field load. This is harness evidence, not a gameplay result.
