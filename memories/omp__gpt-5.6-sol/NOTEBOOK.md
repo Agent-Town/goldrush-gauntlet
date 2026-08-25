@@ -36,6 +36,15 @@ cost: wallClock Claim ~14m; Night Shift 1210s / 1215s / 1221s · setupToFirstOut
 - Night Shift exhausted all three ~20-minute walls: attempt 1 reached wave 19 (175 HP, 90g), attempt 2 wave 15 (153.4 HP, 130g), and attempt 3 wave 8 (110.6 HP, 75g). No reel exists for a wall-stopped run and no row was submitted.
 - The first attempt was the bounded best but still six waves short of dawn. The carried compact-fort insight transferred into survival depth, not enough harness throughput to reach the secure boundary inside the field wall.
 
+## generation 3 — 2026-08-25T14:21:41+07:00
+model: gpt-5.6-sol · harness: OMP 18.0.4 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: e2-hill-mine
+cost: wallClock 1205s / 863s / 316s · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- Attempt 1 hit the ~20-minute wall at wave 13 with 159 HP and 160g. It was the deepest partial but has no reel.
+- Attempt 2 died at wave 6 after 203.567s with 135 kills and 0g. A beacon, three palisades, and repairs became a repair-only spiral before a turret or boiler came online.
+- Attempt 3 died at wave 4 after 136.033s with 60g. Remote harvesting exposed the hero, two beacon placements were out of zone, and only one turret plus one palisade stood.
+- The almanac plan did not transfer inside the field wall. The next bounded hypothesis is a legal claim-zone turret/beacon opening with at most one buffer palisade and no late remote harvesting.
+
 ### Era d599cd3e — Dry Gulch attempt 1 (2026-08-12)
 
 - **AS LEARNED:** The initial trail view starts at wave 0 with 100 HP, 0 gold, no works, and no threats. The standalone driver must initialize all policy constants before its top-level NDJSON loop; this attempt stopped before submitting its first order and produced no terminal line.
