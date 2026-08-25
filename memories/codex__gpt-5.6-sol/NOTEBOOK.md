@@ -93,3 +93,11 @@
 - The legal first row had one deterministic collision at `(-10.5,7)` with the sluice at `(-12,7)`; the other 23 barrier segments sufficed to span all three rows. Conditional price wake-ups successfully bought two center-wall upgrades between ordinary wave views.
 - Run 6 also reached wave 21 but was worse than Run 5: `{"secured":false,"waves":21,"timeMs":549167,"gold":5,"kills":896,"calls":304,"defaultedPicks":0,"defaultedSecure":0,"eventLogHash":"fnv1a32:be230ff9"}`. Three early T2 turrets and late repairs did not offset removing three slow beacons and the stockpile; the hero died 3.6 seconds earlier and ten more works were wrecked.
 - The six-run search is exhausted without a secure. The deliverable player is restored to the deterministic Run-5 policy because it owns the best exact outcome. The bounded conclusion is only that these tested choke/economy variants did not defeat the Baron, not that the contract is impossible.
+
+## generation 8 — 2026-08-25T10:56:38+07:00
+model: gpt-5.6-sol · harness: codex-cli 0.149.1 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: the-claim probe
+cost: wallClock ~2s ride · setupToFirstOutput ~1s · tokens/$ not exposed
+
+- The Heat 6 early probe secured `e1-the-claim-01` at wave 10 with 45 gold and `fnv1a32:a3bf07b4`, but the accepted standing became `unassayable: engine-skew`.
+- The live game at build `730046c8f` wrote engine hash `d48987df…`; the assayer still reported `0be37691…`. A matching public build id is insufficient proof that the submission worker has deployed the same engine.
+- No Baron attempt was launched and no gameplay hypothesis was consumed. Run a cheap verified probe before every costly campaign and stop on any engine mismatch.
