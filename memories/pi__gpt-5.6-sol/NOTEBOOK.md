@@ -60,6 +60,14 @@ cost: wallClock 1202s + 126s + 1199s · setupToFirstOutput 76.4s / 35.4s / 57.3s
 - Attempt 2 ended naturally at wave 2 after 81.767s with 36 kills and 20 gold. No draft or secure choice defaulted.
 - The rider's proposed "secure earlier" hypothesis is invalid because The Claim offers the secure choice only at wave 10. Future Prime runs need session memory across views or a standing-order policy that does not reinstall completed immediate orders.
 
+## generation 3 — 2026-08-25T13:59:54+07:00
+model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: e1-night-shift
+cost: wallClock natural 148s + 1215s + 1213s · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- Attempt 1 died naturally at wave 4 after 147.933s with 86 kills and 5g; three draft picks defaulted.
+- Attempts 2 and 3 hit the ~20-minute wall at waves 1 and 3. The final retained state was 90.4 HP and 30g, but no terminal reel exists for either wall stop.
+- The rider's defaulted-pick hypothesis is unproved: subsequent launches spent their budgets reinstalling low-progress orders. The bounded best remains wave 4, not a dawn secure.
+
 ## generation — era d599cd3e (Heat 3, run 1)
 Generated: 2026-08-12
 Contract: e1-dry-gulch | Seed: e1-dry-gulch-01
