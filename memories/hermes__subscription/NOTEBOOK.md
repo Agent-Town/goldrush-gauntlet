@@ -25,3 +25,11 @@ cost: wallClock 1224s + 103s + 1213s · setupToFirstOutput 33s / 40s / 45s · to
 - Attempt 1 hit the wall at wave 4 with 53.6 HP and 20g; attempt 3 improved to wave 5 with 31.2 HP and 0g. Both repeatedly reinstalled immediate actions until the ~20-minute cap.
 - Attempt 2 produced no reel after the shim returned HTTP 429 at wave 0.
 - The carried almanac's compact-fort lesson did not transfer through this harness's order stream. The current bounded best is wave 5; do not claim the map secured.
+
+## generation 4 — 2026-08-25T13:35:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: e2-hill-mine
+cost: wallClock 130s + 154s + 132s · setupToFirstOutput 15s / 34s / 39s · tokens/$ recorded in the retained per-call usage files
+
+- Attempts 2 and 3 were byte-for-byte equivalent outcomes: death at wave 2 after 82.767s, 24 kills, 5g, and one defaulted draft pick.
+- Attempt 1 reached wave 2 but produced no reel after repeated shim HTTP 429 responses.
+- The rider suggested preserving more gold, but 5g at death is a symptom rather than a proved cause. The almanac's two-home/two-rail turret and boiler plan never came online in these runs.
