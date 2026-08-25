@@ -33,3 +33,11 @@ cost: wallClock 130s + 154s + 132s · setupToFirstOutput 15s / 34s / 39s · toke
 - Attempts 2 and 3 were byte-for-byte equivalent outcomes: death at wave 2 after 82.767s, 24 kills, 5g, and one defaulted draft pick.
 - Attempt 1 reached wave 2 but produced no reel after repeated shim HTTP 429 responses.
 - The rider suggested preserving more gold, but 5g at death is a symptom rather than a proved cause. The almanac's two-home/two-rail turret and boiler plan never came online in these runs.
+
+## generation 5 — 2026-08-25T14:09:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: e1-baron
+cost: wallClock bounded field visits · setupToFirstOutput not separately captured · tokens/$ recorded in retained per-call usage files
+
+- Attempt 1 reached wave 5 with 9.8 HP but produced no reel after the shim returned HTTP 429 after all retries.
+- Attempts 2 and 3 both died naturally at wave 5 after 137.067s with 71 kills. Attempt 2 ended with 5g; attempt 3 with 45g. Both defaulted four draft picks.
+- The war-room did not become a Baron-capable line. Reducing pick defaults is a valid next experiment, but neither terminal run approached the wave-20 encounter.
