@@ -76,6 +76,14 @@ cost: wallClock 1213s / 203s / 1201s · setupToFirstOutput not separately captur
 - Attempt 2 died naturally at wave 2 after 82.767s with 24 kills, 10g, and one defaulted pick.
 - Avoiding one defaulted pick cannot explain two separate harness stalls. The almanac's two-home/two-rail build never came online; a future Prime attempt needs valid standing-order forms and state continuity before strategy tuning.
 
+## generation 5 — 2026-08-25T15:29:46+07:00
+model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: e1-baron
+cost: wallClock 1208s / 1025s / 301s · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- Attempt 1 hit the ~20-minute wall at wave 3 (82.4 HP, 55g) and produced no reel.
+- Attempts 2 and 3 died naturally at wave 5 after 137.067s with 71 kills and 5g; each defaulted four draft picks. The serialized final run needed 13 calls and five wall minutes, versus 30 calls and seventeen minutes under contention.
+- Lower contention fixed throughput, not play quality. The war-room never produced a line that approached the wave-20 encounter, so reducing draft defaults remains a narrow hypothesis rather than a Baron strategy.
+
 ## generation — era d599cd3e (Heat 3, run 1)
 Generated: 2026-08-12
 Contract: e1-dry-gulch | Seed: e1-dry-gulch-01
