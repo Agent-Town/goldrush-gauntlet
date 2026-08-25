@@ -18,3 +18,11 @@ cost: wallClock ~8m across three launches · setupToFirstOutput 32s on the longe
 - Three launches produced no reel because the streaming shim returned HTTP 429 under concurrent field load: immediately on launch 1, after the first decision on launch 2, and after reaching wave 7 on launch 3.
 - The deepest partial line kept the hero at 100 HP through wave 7 and reached 17 accepted order replacements, but without a terminal reel it makes no secure or score claim.
 - The global approvals migration was restored byte-for-byte (`f16d8858…`) and later launches used a heat-local state copy. Future field runs should serialize OpenClaw when the shared shim is already carrying other riders.
+
+## generation 3 — 2026-08-25T16:30:00+07:00
+model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: e1-night-shift
+cost: wallClock 1207s / 1202s / 1203s · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- Fully serialized attempts removed the earlier HTTP 429 wall: every retained transport response was SSE 200 and the shim stayed alive.
+- All three attempts exhausted ~20 minutes without a reel: wave 10 (100 HP, 65g, 25 replacements), wave 5 (71.2 HP, 60g, 39 replacements), and wave 6 (58.4 HP, 74g, 36 replacements).
+- The first line was strategically healthy but too chatty; attempts 2 and 3 repeatedly replaced the same immediate decision state. OpenClaw needs a stable standing-order policy that does not reinstall completed economy actions before Night Shift can test the dawn strategy.
