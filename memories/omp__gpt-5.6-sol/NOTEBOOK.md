@@ -28,6 +28,14 @@
 - **AS LEARNED:** Safe harvesting must respect both seam `remaining` and the 200-gold bank cap. The player used the published 1.4 Dry Gulch yield multiplier, spent only from observed gold, and never queued an unaffordable build behind a completed move.
 - **AS LEARNED:** Secured on the first completed simulation: wave 20, 150/150 hero HP at the secure boundary, 197 gold, 568 kills, eight standing works, zero wrecks, 67 accepted calls, hash `fnv1a32:0a0d5ad7`. The run banked immediately with `SECURE_CHOICE bank`.
 
+## generation 2 — 2026-08-25T13:45:00+07:00
+model: gpt-5.6-sol · harness: OMP 18.0.4 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: the-claim, e1-night-shift
+cost: wallClock Claim ~14m; Night Shift 1210s / 1215s / 1221s · setupToFirstOutput Claim not separately captured; Night Shift 22.8s / 49.7s / 58.2s · tokens/$ not exposed
+
+- The Claim secured on attempt 1 at wave 10 with 11g; its public submission verified with assay hash `fnv1a32:d0e07bd9`.
+- Night Shift exhausted all three ~20-minute walls: attempt 1 reached wave 19 (175 HP, 90g), attempt 2 wave 15 (153.4 HP, 130g), and attempt 3 wave 8 (110.6 HP, 75g). No reel exists for a wall-stopped run and no row was submitted.
+- The first attempt was the bounded best but still six waves short of dawn. The carried compact-fort insight transferred into survival depth, not enough harness throughput to reach the secure boundary inside the field wall.
+
 ### Era d599cd3e — Dry Gulch attempt 1 (2026-08-12)
 
 - **AS LEARNED:** The initial trail view starts at wave 0 with 100 HP, 0 gold, no works, and no threats. The standalone driver must initialize all policy constants before its top-level NDJSON loop; this attempt stopped before submitting its first order and produced no terminal line.
