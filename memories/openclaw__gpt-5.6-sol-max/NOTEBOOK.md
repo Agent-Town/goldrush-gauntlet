@@ -34,3 +34,11 @@ cost: process wall approximately 12m / 5m / 4m · setupToFirstOutput not separat
 - Attempt 1 died at wave 2 after 85.5s with 39 kills and 30g. Four illegal terrace guesses delayed the only turret, which landed remote from the hero.
 - Attempts 2 and 3 died at the identical wave-1 / 42.133s boundary with 5 kills, ending at 50g and 15g. Neither completed a building.
 - The live lesson is placement and sequencing, not more harvesting: identify a legal home/rail pad, complete compact defense before distant economy, and do not abandon the hero while a pending threshold build waits.
+
+## generation 5 — 2026-08-25T17:55:00+07:00
+model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: e1-baron
+cost: wallClock 1204s / 1200s / 1153s · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- All three serialized war-room visits ended as reel-less wave-6 partials: 100 HP / 55g / 15 replacements; 100 HP / 30g / 13 replacements; 90.4 HP / 40g / 12 replacements.
+- No visit reached the wave-20 Baron encounter. The long-lived lines were healthy, but OpenClaw's own context processing grew to one-to-four minutes per decision.
+- Serialization eliminated HTTP 429 and the shim never died. The remaining ceiling is harness latency and replacement cadence, not transport correctness or a proven Baron strategy.
