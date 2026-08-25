@@ -68,6 +68,14 @@ cost: wallClock natural 148s + 1215s + 1213s · setupToFirstOutput not separatel
 - Attempts 2 and 3 hit the ~20-minute wall at waves 1 and 3. The final retained state was 90.4 HP and 30g, but no terminal reel exists for either wall stop.
 - The rider's defaulted-pick hypothesis is unproved: subsequent launches spent their budgets reinstalling low-progress orders. The bounded best remains wave 4, not a dawn secure.
 
+## generation 4 — 2026-08-25T14:45:03+07:00
+model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: e2-hill-mine
+cost: wallClock 1213s / 203s / 1201s · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- Attempts 1 and 3 hit the ~20-minute wall at wave 1. The first repeatedly emitted invalid/rejected order forms; the last remained trapped at decision boundaries. Neither produced a reel.
+- Attempt 2 died naturally at wave 2 after 82.767s with 24 kills, 10g, and one defaulted pick.
+- Avoiding one defaulted pick cannot explain two separate harness stalls. The almanac's two-home/two-rail build never came online; a future Prime attempt needs valid standing-order forms and state continuity before strategy tuning.
+
 ## generation — era d599cd3e (Heat 3, run 1)
 Generated: 2026-08-12
 Contract: e1-dry-gulch | Seed: e1-dry-gulch-01
