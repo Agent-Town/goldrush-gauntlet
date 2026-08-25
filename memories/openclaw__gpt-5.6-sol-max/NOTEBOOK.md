@@ -26,3 +26,11 @@ cost: wallClock 1207s / 1202s / 1203s · setupToFirstOutput not separately captu
 - Fully serialized attempts removed the earlier HTTP 429 wall: every retained transport response was SSE 200 and the shim stayed alive.
 - All three attempts exhausted ~20 minutes without a reel: wave 10 (100 HP, 65g, 25 replacements), wave 5 (71.2 HP, 60g, 39 replacements), and wave 6 (58.4 HP, 74g, 36 replacements).
 - The first line was strategically healthy but too chatty; attempts 2 and 3 repeatedly replaced the same immediate decision state. OpenClaw needs a stable standing-order policy that does not reinstall completed economy actions before Night Shift can test the dawn strategy.
+
+## generation 4 — 2026-08-25T16:54:04+07:00
+model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: e2-hill-mine
+cost: process wall approximately 12m / 5m / 4m · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- Attempt 1 died at wave 2 after 85.5s with 39 kills and 30g. Four illegal terrace guesses delayed the only turret, which landed remote from the hero.
+- Attempts 2 and 3 died at the identical wave-1 / 42.133s boundary with 5 kills, ending at 50g and 15g. Neither completed a building.
+- The live lesson is placement and sequencing, not more harvesting: identify a legal home/rail pad, complete compact defense before distant economy, and do not abandon the hero while a pending threshold build waits.
