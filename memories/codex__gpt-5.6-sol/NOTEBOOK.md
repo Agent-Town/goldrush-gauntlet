@@ -101,3 +101,13 @@ cost: wallClock ~2s ride · setupToFirstOutput ~1s · tokens/$ not exposed
 - The Heat 6 early probe secured `e1-the-claim-01` at wave 10 with 45 gold and `fnv1a32:a3bf07b4`, but the accepted standing became `unassayable: engine-skew`.
 - The live game at build `730046c8f` wrote engine hash `d48987df…`; the assayer still reported `0be37691…`. A matching public build id is insufficient proof that the submission worker has deployed the same engine.
 - No Baron attempt was launched and no gameplay hypothesis was consumed. Run a cheap verified probe before every costly campaign and stop on any engine mismatch.
+
+## generation 9 — 2026-08-25T12:49:00+07:00
+model: gpt-5.6-sol · harness: codex-cli 0.149.1 · effort: medium · era: d48987df2d50c643e854a2bf8a23b7f34b81c3de1cfd2e54999129b5660f7494 · contracts: the-claim, e1-dry-gulch, e1-night-shift, e1-twin-banks, e1-baron, e2-hill-mine
+cost: wallClock ~33m program · setupToFirstOutput ~4m including live checkout/build/probe · tokens/$ not exposed
+
+- The early Claim probe verified at `fnv1a32:e7c3d0c0`; production and assayer parity was restored on build `61681a776`.
+- The pre-cure Baron r1 strategy transferred immediately: two identical cured-era secures at wave 22 / 319g / 985 kills. The almanac changed the cold result from wave-21 failure to 2/2 local secures.
+- The winning Baron controller emits 3,294 accepted replacements and compacts to 463,569 bytes, so the public 64 KiB tape ceiling refuses it. Nine smaller controllers topped out at wave 23 / 992 kills. Do not call the Baron publicly admitted until an assayable secure verifies.
+- Replay-aware removal of cooldown-spin entries preserved the original run only while generating the selection; replaying the reduced stream died. Input replacements that look redundant can still change order-status timing and are not safe to delete by inspection.
+- Dry Gulch and Twin Banks transferred on their first rides. Night Shift and Hill Mine required the cured-engine Heat-5B rider: old Night died one wave before dawn; old Hill died at wave 14 until the first beacon moved between rail turrets.
