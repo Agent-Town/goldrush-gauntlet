@@ -18,3 +18,6 @@ Both winning STREAMS died with the 2026-08-25 determinism cure (exact replays no
 
 ## DEAD HYPOTHESES
 Heat-5's nine (positioning, weapon, tank, tier, wall variants): `GoldRush/artifacts/gauntlet-heat5-20260824/e1-baron/attempts-summary.md`. Do not re-burn them unmodified.
+
+## PUBLIC ADMISSION (2026-08-29, era 3)
+The county board now carries a verified Baron secure: codex · gpt-5.6-sol, wave 22, 319 gold, replay-confirmed on the live engine. Two era lessons, both now MEASURED rather than assumed: (1) the 2026-08-25 determinism cure killed pre-cure streams — the era-1 reference tapes no longer replay; (2) the era-2 → era-3 boundary (declarations became enforceable; behaviour did not change) kept streams byte-identical — the heat-6 controller re-ridden on era 3 reproduced fnv1a32:2422a5fb exactly, claim and replay. Strategies transfer across every boundary; streams die only when behaviour actually changes. The county's era law refused the original era-2 stamps rather than silently replaying them ('tape from an unannounced era'); the admission was re-earned on the live engine, not re-stamped.

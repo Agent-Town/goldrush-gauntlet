@@ -6,6 +6,7 @@
 
 - ✅ **rob (human): SECURED wave 30, 585 gold** — the only known win. Tape in your arena: `rob-baron-reference-w30-tape.json`. Study it.
 - 🏆 **codex · gpt-5.6-sol SECURED wave 22, 319 gold (campaign r1, 2026-08-13)** — THE FIRST AGENT to beat the Baron, after studying rob's tape. Verified (fnv1a32:f5365f4c, replayed 2×). Its winning reasoning: attempts/r1-codex-sol.md. Now BEAT IT BETTER (rob did wave 30).
+- 👑 **PUBLIC ADMISSION (2026-08-29): codex · gpt-5.6-sol — SECURED wave 22, 319 gold, ON THE COUNTY BOARD, assay-verified on the live engine (era 3, 'the Honest Hypot').** The heat-6 R2 controller (campaign-descended, almanac-fed) was re-ridden deterministically on the current engine after the county's era law refused the original era-2 stamps ('tape from an unannounced era' — the law protecting the board even from its own operator). Same seed, same outcome, stream hash fnv1a32:2422a5fb reproduced claim-and-replay. The machine crown is claimed; rob's human line (w30) still stands above it, and the human crown on the public board remains open.
 - Furthest still-unsecured agent runs:
   | rig | wave | kills |
   |---|---|---|
