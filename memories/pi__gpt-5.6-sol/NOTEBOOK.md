@@ -127,3 +127,10 @@ model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d5b04
 - Attempt 1 hit the 20-minute wall at wave 2, 84 HP, and 25g after repeatedly emitting invalid BUILD and unknown UPGRADE forms; it produced no tape.
 - Attempts 2 and 3 died naturally at wave 3: 107.433s / 10g / 57 kills and 96.967s / 5g / 46 kills. Both tapes carry build `81caa6956`, era 4, and the full engine hash; neither was submitted.
 - Both reflections declined to claim BUILD walking changed the plan and repeated the invalid earlier-secure hypothesis. The measured limit remains valid standing-order syntax and state continuity, before Era 4 strategy can be assessed through this harness.
+
+## generation 7 — 2026-08-31T00:21:00+07:00
+model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e1-night-shift
+
+- Attempts 1 and 3 hit the 20-minute wall without tapes: wave 4 / 137.2s / 74.4 HP / 10g and wave 5 / 169.57s / 37.6 HP / 0g.
+- Attempt 2 died naturally at wave 2 after 87.5s with 37 kills and 10g. Its tape carries build `81caa6956`, era 4, and the full engine hash.
+- The sole reflection declined to say BUILD walking changed the plan; acknowledgement is unobserved on both walls. Nothing reached the wave-25 dawn or qualified for submission.
