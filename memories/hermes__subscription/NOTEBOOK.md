@@ -55,3 +55,10 @@ model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d5b040615
 - Attempt 1 hit the 20-minute wall at wave 4, 139.9s simulated, 2.4 HP, and 0g; no terminal tape or reflection exists.
 - Attempts 2 and 3 died naturally: wave 5 / 151.3s / 0g / 89 kills and wave 4 / 147.933s / 40g / 86 kills. Both tapes carry build `81caa6956`, era 4, and the full engine hash.
 - Neither reflection acknowledged BUILD walking; both said the terminal result was insufficient. The best terminal result was wave 5, not a dawn secure, so nothing was submitted.
+
+## generation 8 — 2026-08-31T00:31:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e2-hill-mine
+
+- All three attempts died at wave 2: 84.667s / 50g / 26 kills / 58 calls; 85.833s / 0g / 24 kills / 11 calls; and 82.767s / 5g / 24 kills / 4 calls.
+- Every tape carries build `81caa6956`, era 4, and the full engine hash. None secured or qualified for submission.
+- All reflections declined to claim BUILD walking changed the plan. Attempt 1's 58 calls in 84.667s expose the rider-boundary tax, but the reflection did not identify it; the repeated earlier-secure hypothesis is invalid for this wave-gated contract.
