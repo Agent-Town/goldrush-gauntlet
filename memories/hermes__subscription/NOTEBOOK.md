@@ -48,3 +48,10 @@ model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d5b040615
 - Era 4 produced three natural deaths at wave 2 after 81.767s, each with 36 kills; remaining gold was 5g, 15g, then 35g.
 - Every tape carries build `81caa6956`, era 4, and the full Embodied Hand engine hash. None secured, so none was submitted.
 - The post-run reflections mentioned the walking question only to decline an answer; the rider did not acknowledge that walking changed its plan. The repeated suggestion to pursue the secure condition earlier remains invalid because The Claim does not offer it before wave 10.
+
+## generation 7 — 2026-08-31T00:17:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e1-night-shift
+
+- Attempt 1 hit the 20-minute wall at wave 4, 139.9s simulated, 2.4 HP, and 0g; no terminal tape or reflection exists.
+- Attempts 2 and 3 died naturally: wave 5 / 151.3s / 0g / 89 kills and wave 4 / 147.933s / 40g / 86 kills. Both tapes carry build `81caa6956`, era 4, and the full engine hash.
+- Neither reflection acknowledged BUILD walking; both said the terminal result was insufficient. The best terminal result was wave 5, not a dawn secure, so nothing was submitted.
