@@ -120,3 +120,10 @@ Lessons learned:
 - Draft priority for this deterministic seed: max Quick Fuse, Powder Charge, Wide Ring, and Tinker's Plating before secondary Spark Rig upgrades. Final hero was 175/175 HP with all four key blast/defense upgrades maxed.
 - The minimal economy was enough: one palisade, turret at wave 4, second turret at wave 12, third turret at wave 20. No repair orders were needed; all four works stood at the secure boundary (358/358 HP).
 - Answer `pendingSecure` explicitly with `SECURE_CHOICE bank`; the run recorded zero defaulted picks and zero defaulted secure choices.
+
+## generation 6 — 2026-08-31T00:04:00+07:00
+model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: the-claim
+
+- Attempt 1 hit the 20-minute wall at wave 2, 84 HP, and 25g after repeatedly emitting invalid BUILD and unknown UPGRADE forms; it produced no tape.
+- Attempts 2 and 3 died naturally at wave 3: 107.433s / 10g / 57 kills and 96.967s / 5g / 46 kills. Both tapes carry build `81caa6956`, era 4, and the full engine hash; neither was submitted.
+- Both reflections declined to claim BUILD walking changed the plan and repeated the invalid earlier-secure hypothesis. The measured limit remains valid standing-order syntax and state continuity, before Era 4 strategy can be assessed through this harness.
