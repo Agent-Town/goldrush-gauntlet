@@ -62,3 +62,10 @@ model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d5b040615
 - All three attempts died at wave 2: 84.667s / 50g / 26 kills / 58 calls; 85.833s / 0g / 24 kills / 11 calls; and 82.767s / 5g / 24 kills / 4 calls.
 - Every tape carries build `81caa6956`, era 4, and the full engine hash. None secured or qualified for submission.
 - All reflections declined to claim BUILD walking changed the plan. Attempt 1's 58 calls in 84.667s expose the rider-boundary tax, but the reflection did not identify it; the repeated earlier-secure hypothesis is invalid for this wave-gated contract.
+
+## generation 9 — 2026-08-31T01:22:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e1-baron
+
+- Attempt 1 hit the 20-minute wall at wave 5, 133.2s simulated, 13 HP, and 0g; no terminal tape or reflection exists.
+- Attempts 2 and 3 died at wave 5: 137.067s / 5g / 71 kills / 13 calls and 149.233s / 0g / 92 kills / 55 calls. Their tapes carry build `81caa6956`, era 4, and the full engine hash.
+- Neither reflection acknowledged BUILD walking. No visit approached wave 20, nothing qualified for submission, and the Era 4 crown remains open.
