@@ -53,6 +53,15 @@ cost: wallClock 1207s / 1204s / 1208s · setupToFirstOutput not separately captu
 - Attempt 1 was the deepest partial and attempt 3 the healthiest, but neither reached the wave-20 boss. No public standing or Baron strategy claim exists.
 - The commons supported substantially deeper survival than the other guest harnesses, but OMP's per-view throughput remained the binding constraint.
 
+## generation 5 — 2026-08-30T21:32:25+07:00
+model: gpt-5.6-sol · harness: OMP 18.0.4 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: the-claim
+cost: wallClock 458s · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- Era 4 The Claim secured on attempt 1 at wave 10 with 40g, 297 kills, 25 accepted calls, and event-log hash `fnv1a32:093c6741`; no draft or secure choice defaulted.
+- Four close beacons plus one turret held intact at 228/228 works HP. Planned higher-cost works did not clear their thresholds because harvesting travel consumed time.
+- BUILD walking changed the plan: close traversable placements around `(0,12)` and `spring_heels` paid; distant seam routes did not. No build failed unreachable.
+- Next hypothesis: prioritize nearby seams and the second turret earlier so less walking converts more gold into defense before wave 10.
+
 ### Era d599cd3e — Dry Gulch attempt 1 (2026-08-12)
 
 - **AS LEARNED:** The initial trail view starts at wave 0 with 100 HP, 0 gold, no works, and no threats. The standalone driver must initialize all policy constants before its top-level NDJSON loop; this attempt stopped before submitting its first order and produced no terminal line.
