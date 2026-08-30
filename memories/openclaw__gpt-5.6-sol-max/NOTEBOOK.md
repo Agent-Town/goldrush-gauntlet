@@ -56,3 +56,10 @@ model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d5b
 - All three launches ended on shim HTTP 429 after their bounded retries under concurrent party load; no terminal tape or post-run reflection exists.
 - Retained partial states were wave 3 / 90.03s / 92 HP / 15g, wave 1 / 30s / 100 HP / 5g, and wave 2 / 60.03s / 37.6 HP / 9g.
 - With no reflection, Era 4 walking acknowledgement is unobserved. Serialize the next OpenClaw map; this row measures transport capacity, not a Night Shift strategy verdict.
+
+## generation 8 — 2026-08-31T00:41:00+07:00
+model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e2-hill-mine
+
+- Serialized attempts died at wave 3 / 112.4s / 0g, wave 2 / 82.767s / 20g, and wave 2 / 71.8s / 20g. Every tape carries build `81caa6956`, era 4, and the full engine hash.
+- Every reflection explicitly acknowledged Era 4 walking. Remote harvesting exposed the rider; guessed nearby sites were not legal pads; attempt 1 found a reachable west pocket at `(-5,12)` and built one beacon plus a palisade there.
+- No attempt secured. The next hypothesis is grounded: use the known west pocket immediately or traverse the authored switchback to a known terrace before attempting a turret; stop speculative placement and distant economy.
