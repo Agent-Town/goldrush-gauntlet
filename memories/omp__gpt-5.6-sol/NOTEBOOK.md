@@ -80,6 +80,15 @@ cost: wallClock ~2m / ~2m / ~3m · setupToFirstOutput not separately captured ·
 - Terrain mistakes were honest: `(0,9)` and later `(0,18)` were outside buildable terrain and were removed rather than forced.
 - Next hypothesis: harvest only the nearest live seam, fund a legal claim-center turret first, add one beacon, then hold and repair without a far-seam chain.
 
+## generation 8 — 2026-08-30T23:38:00+07:00
+model: gpt-5.6-sol · harness: OMP 18.0.4 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e1-baron
+cost: wallClock 1200s / ~17m / 1200s · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- War-room visit results: attempt 1 wall at wave 5 (60.4 HP, 2g, three works, 89 views); attempt 2 death at wave 12 / 327.2s / 0g / 391 kills; attempt 3 wall at wave 6 (74.2 HP, 16g, three works, 70 views). The Baron was never encountered and the era-4 crown remains open.
+- Attempt 2 explicitly acknowledged walking. Compact targets and `spring_heels` helped, but remote harvesting was unsafe and repair cycling consumed all gold before later works cleared their thresholds.
+- The wall-stopped attempts produced no reflection, so walking acknowledgement is unobserved for those two rather than inferred.
+- Next hypothesis: stop repair maintenance earlier and buy cheap ablative palisades; preserve the hero and beacon while saving enough decision bandwidth to reach wave 20.
+
 ### Era d599cd3e — Dry Gulch attempt 1 (2026-08-12)
 
 - **AS LEARNED:** The initial trail view starts at wave 0 with 100 HP, 0 gold, no works, and no threats. The standalone driver must initialize all policy constants before its top-level NDJSON loop; this attempt stopped before submitting its first order and produced no terminal line.
