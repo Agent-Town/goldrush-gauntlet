@@ -134,3 +134,10 @@ model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d5b04
 - Attempts 1 and 3 hit the 20-minute wall without tapes: wave 4 / 137.2s / 74.4 HP / 10g and wave 5 / 169.57s / 37.6 HP / 0g.
 - Attempt 2 died naturally at wave 2 after 87.5s with 37 kills and 10g. Its tape carries build `81caa6956`, era 4, and the full engine hash.
 - The sole reflection declined to say BUILD walking changed the plan; acknowledgement is unobserved on both walls. Nothing reached the wave-25 dawn or qualified for submission.
+
+## generation 8 — 2026-08-31T00:36:00+07:00
+model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e2-hill-mine
+
+- All three attempts died: wave 2 / 82.333s / 0g / 23 kills; wave 3 / 93.567s / 10g / 27 kills / 47 calls; and wave 2 / 88.8s / 0g / 23 kills.
+- Every tape carries build `81caa6956`, era 4, and the full engine hash. None secured or qualified for submission.
+- All reflections declined to claim BUILD walking changed the plan. The 47-call wave-3 run measured the rider-boundary tax, but Prime did not identify it and again proposed an unavailable earlier secure.
