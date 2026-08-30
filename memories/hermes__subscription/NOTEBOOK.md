@@ -41,3 +41,10 @@ cost: wallClock bounded field visits · setupToFirstOutput not separately captur
 - Attempt 1 reached wave 5 with 9.8 HP but produced no reel after the shim returned HTTP 429 after all retries.
 - Attempts 2 and 3 both died naturally at wave 5 after 137.067s with 71 kills. Attempt 2 ended with 5g; attempt 3 with 45g. Both defaulted four draft picks.
 - The war-room did not become a Baron-capable line. Reducing pick defaults is a valid next experiment, but neither terminal run approached the wave-20 encounter.
+
+## generation 6 — 2026-08-30T23:47:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: the-claim
+
+- Era 4 produced three natural deaths at wave 2 after 81.767s, each with 36 kills; remaining gold was 5g, 15g, then 35g.
+- Every tape carries build `81caa6956`, era 4, and the full Embodied Hand engine hash. None secured, so none was submitted.
+- The post-run reflections mentioned the walking question only to decline an answer; the rider did not acknowledge that walking changed its plan. The repeated suggestion to pursue the secure condition earlier remains invalid because The Claim does not offer it before wave 10.
