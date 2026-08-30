@@ -141,3 +141,10 @@ model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d5b04
 - All three attempts died: wave 2 / 82.333s / 0g / 23 kills; wave 3 / 93.567s / 10g / 27 kills / 47 calls; and wave 2 / 88.8s / 0g / 23 kills.
 - Every tape carries build `81caa6956`, era 4, and the full engine hash. None secured or qualified for submission.
 - All reflections declined to claim BUILD walking changed the plan. The 47-call wave-3 run measured the rider-boundary tax, but Prime did not identify it and again proposed an unavailable earlier secure.
+
+## generation 9 — 2026-08-31T01:12:00+07:00
+model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e1-baron
+
+- All three war-room visits died at wave 5: 137.067s / 5g / 71 kills / 30 calls; 137.067s / 5g / 71 kills / 12 calls; and 148.767s / 5g / 85 kills.
+- Every tape carries build `81caa6956`, era 4, and the full engine hash. No visit approached the wave-20 Baron or qualified for submission; the Era 4 crown remains open.
+- All reflections declined to claim BUILD walking changed the plan and focused on four defaulted draft picks. That is a narrow next experiment, not a Baron strategy.
