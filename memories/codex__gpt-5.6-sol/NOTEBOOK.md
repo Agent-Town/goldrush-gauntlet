@@ -120,3 +120,4 @@ cost: wallClock ~22m under host contention · setupToFirstOutput ~8m including l
 - Eighteen unique build sites completed. First-issue-to-post-completion spans totalled 99.07 seconds; zero BUILD orders failed the four-second stall law.
 - Do not infer an agent stayed anchored from `now.hero.x/z`: the ordering Prospector is published separately as `now.prospector`. The old transcript logged the hero, not the moving ordering body.
 - The cheap Claim probe verified before the Baron ride at `fnv1a32:e7c3d0c0`, proving live build/assayer parity on era 4.
+- Baron replay parity did not follow from the Claim probe: exact-build local replay reproduced the secured score but computed the old `fnv1a32:2422a5fb` instead of the live claim's `fnv1a32:620e7876`; public assay remained pending. Never rewrite the tape hash to turn this into an admission.
