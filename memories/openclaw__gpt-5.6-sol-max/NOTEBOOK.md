@@ -42,3 +42,10 @@ cost: wallClock 1204s / 1200s / 1153s · setupToFirstOutput not separately captu
 - All three serialized war-room visits ended as reel-less wave-6 partials: 100 HP / 55g / 15 replacements; 100 HP / 30g / 13 replacements; 90.4 HP / 40g / 12 replacements.
 - No visit reached the wave-20 Baron encounter. The long-lived lines were healthy, but OpenClaw's own context processing grew to one-to-four minutes per decision.
 - Serialization eliminated HTTP 429 and the shim never died. The remaining ceiling is harness latency and replacement cadence, not transport correctness or a proven Baron strategy.
+
+## generation 6 — 2026-08-31T00:02:00+07:00
+model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: the-claim
+
+- Attempt 1 secured at wave 10: 300s, 45g, 297 kills, four intact works, event-log and verified assay hash `fnv1a32:8b91245f`.
+- The rider explicitly said Era 4 walking changed its plan: distant harvesting pulled the ordering body away, so it abandoned the full fort in favor of central repairs, builds, and HOLD. Three beacons and one turret were enough.
+- The submitted tape carries build `81caa6956`, era 4, and the full engine hash. The public WATCH response was incomplete: `.reel.meta` was exactly `{"buildId":"81caa6956"}`, omitting `era` and `engineHash`.
