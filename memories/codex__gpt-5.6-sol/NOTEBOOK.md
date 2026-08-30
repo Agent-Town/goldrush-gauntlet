@@ -111,3 +111,12 @@ cost: wallClock ~33m program · setupToFirstOutput ~4m including live checkout/b
 - The winning Baron controller emits 3,294 accepted replacements and compacts to 463,569 bytes, so the public 64 KiB tape ceiling refuses it. Nine smaller controllers topped out at wave 23 / 992 kills. Do not call the Baron publicly admitted until an assayable secure verifies.
 - Replay-aware removal of cooldown-spin entries preserved the original run only while generating the selection; replaying the reduced stream died. Input replacements that look redundant can still change order-status timing and are not safe to delete by inspection.
 - Dry Gulch and Twin Banks transferred on their first rides. Night Shift and Hill Mine required the cured-engine Heat-5B rider: old Night died one wave before dawn; old Hill died at wave 14 until the first beacon moved between rail turrets.
+## generation 10 — 2026-08-30T21:20:00+07:00
+model: gpt-5.6-sol · harness: codex-cli 0.149.1 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e1-baron
+cost: wallClock ~22m under host contention · setupToFirstOutput ~8m including live build and verified probe · tokens/$ not exposed
+
+- Era 4 Baron secured twice at wave 22 / 319 gold / 985 kills / `fnv1a32:620e7876` with identical accepted-input hash `c3f2bcd797d111b93ea5a2ac806538a57ab76000475898b04f2eb151146694e9`.
+- The era-3 winner already put an explicit `MOVE_TO` immediately before every BUILD. The Embodied Hand therefore enforced a spatial guarantee the controller had already voluntarily satisfied; no schedule rewrite was needed.
+- Eighteen unique build sites completed. First-issue-to-post-completion spans totalled 99.07 seconds; zero BUILD orders failed the four-second stall law.
+- Do not infer an agent stayed anchored from `now.hero.x/z`: the ordering Prospector is published separately as `now.prospector`. The old transcript logged the hero, not the moving ordering body.
+- The cheap Claim probe verified before the Baron ride at `fnv1a32:e7c3d0c0`, proving live build/assayer parity on era 4.
