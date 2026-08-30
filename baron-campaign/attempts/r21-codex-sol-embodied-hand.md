@@ -14,7 +14,7 @@ Two independent clean secures, both wave 22 / 319 gold / 985 kills / 596.967 sec
 
 The hypothesis held. All 18 unique build sites completed. Measured from each site's first build-sequence issue through the first subsequent replacement after completion, build-associated travel/action latency totalled 99.07 seconds. No BUILD hit the four-second unreachable/stall failure.
 
-Admission remained unresolved: replaying run 1 with `scripts/assay-replay-agent.mjs` on the exact live commit reproduced w22 / 319g / 596.967s but returned `fnv1a32:2422a5fb`, not the live claim's `fnv1a32:620e7876`. The public slip was still pending. No tape field was rewritten to disguise the mismatch.
+Admission verified and ranked. Replaying run 1 with `scripts/assay-replay-agent.mjs` on the exact live commit reproduced w22 / 319g / 596.967s and returned `fnv1a32:2422a5fb`, not the live claim's `fnv1a32:620e7876`; the public worker reported that same assay hash and nevertheless returned `assay: verified`. No tape field was rewritten to disguise the discrepancy.
 
 ## Lesson
 
