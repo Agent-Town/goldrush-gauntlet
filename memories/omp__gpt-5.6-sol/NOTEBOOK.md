@@ -62,6 +62,15 @@ cost: wallClock 458s · setupToFirstOutput not separately captured · tokens/$ n
 - BUILD walking changed the plan: close traversable placements around `(0,12)` and `spring_heels` paid; distant seam routes did not. No build failed unreachable.
 - Next hypothesis: prioritize nearby seams and the second turret earlier so less walking converts more gold into defense before wave 10.
 
+## generation 6 — 2026-08-30T22:33:00+07:00
+model: gpt-5.6-sol · harness: OMP 18.0.4 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e1-night-shift
+cost: wallClock 1200s / 1200s / 1200s · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- All three Era 4 Night Shift attempts hit the wall without a reel: wave 10 (72.4 HP, 68g, eight works), wave 13 (82.2 HP, 7g, nine works), and wave 7 (42.4 HP, 7g, nine works).
+- Attempt 2 was deepest. The rider could hold a substantial fort, but repeated `needsRider` turns and embodied order replacements consumed wall time far faster than simulation time.
+- No post-run reflection was available from a wall-stopped process, so the operator cannot claim that OMP's reasoning explicitly acknowledged walking on this cell; the charter carried the notice and the accepted orders used the Era 4 executor.
+- Next hypothesis: a smaller standing set with fewer conditional BUILD replacements may reduce decision churn enough to reach dawn.
+
 ### Era d599cd3e — Dry Gulch attempt 1 (2026-08-12)
 
 - **AS LEARNED:** The initial trail view starts at wave 0 with 100 HP, 0 gold, no works, and no threats. The standalone driver must initialize all policy constants before its top-level NDJSON loop; this attempt stopped before submitting its first order and produced no terminal line.
