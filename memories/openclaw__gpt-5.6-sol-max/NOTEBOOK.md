@@ -63,3 +63,10 @@ model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d5b
 - Serialized attempts died at wave 3 / 112.4s / 0g, wave 2 / 82.767s / 20g, and wave 2 / 71.8s / 20g. Every tape carries build `81caa6956`, era 4, and the full engine hash.
 - Every reflection explicitly acknowledged Era 4 walking. Remote harvesting exposed the rider; guessed nearby sites were not legal pads; attempt 1 found a reachable west pocket at `(-5,12)` and built one beacon plus a palisade there.
 - No attempt secured. The next hypothesis is grounded: use the known west pocket immediately or traverse the authored switchback to a known terrace before attempting a turret; stop speculative placement and distant economy.
+
+## generation 9 — 2026-08-31T01:49:00+07:00
+model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e1-baron
+
+- Three serialized war-room visits hit the 20-minute wall without tapes: wave 5 / 147.03s / 83.4 HP / 19g; wave 6 / 173.87s / 73.2 HP / 2g; and wave 4 / 124.13s / 80.6 HP / 5g.
+- Transport stayed SSE 200 with no capacity retries. The limit was rider cadence: each final state still required a rider and simulated time advanced by fractions of a second per model turn.
+- With no terminal reflection, BUILD-walking acknowledgement is unobserved. No visit approached wave 20; nothing qualified for submission and the Era 4 crown remains open.
