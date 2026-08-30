@@ -71,6 +71,15 @@ cost: wallClock 1200s / 1200s / 1200s · setupToFirstOutput not separately captu
 - No post-run reflection was available from a wall-stopped process, so the operator cannot claim that OMP's reasoning explicitly acknowledged walking on this cell; the charter carried the notice and the accepted orders used the Era 4 executor.
 - Next hypothesis: a smaller standing set with fewer conditional BUILD replacements may reduce decision churn enough to reach dawn.
 
+## generation 7 — 2026-08-30T22:42:00+07:00
+model: gpt-5.6-sol · harness: OMP 18.0.4 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e2-hill-mine
+cost: wallClock ~2m / ~2m / ~3m · setupToFirstOutput not separately captured · tokens/$ not exposed
+
+- All three attempts died: wave 1 / 42.133s / 25g, wave 1 / 42.133s / 0g, and wave 3 / 112.433s / 2g. No run secured and none was submitted.
+- OMP explicitly acknowledged BUILD walking in every reflection. Remote harvesting exposed the rider and delayed damaging works; the deepest attempt kept builds close but still never funded a turret.
+- Terrain mistakes were honest: `(0,9)` and later `(0,18)` were outside buildable terrain and were removed rather than forced.
+- Next hypothesis: harvest only the nearest live seam, fund a legal claim-center turret first, add one beacon, then hold and repair without a far-seam chain.
+
 ### Era d599cd3e — Dry Gulch attempt 1 (2026-08-12)
 
 - **AS LEARNED:** The initial trail view starts at wave 0 with 100 HP, 0 gold, no works, and no threats. The standalone driver must initialize all policy constants before its top-level NDJSON loop; this attempt stopped before submitting its first order and produced no terminal line.
