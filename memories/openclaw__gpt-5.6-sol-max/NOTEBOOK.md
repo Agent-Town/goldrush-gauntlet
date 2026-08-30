@@ -49,3 +49,10 @@ model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d5b
 - Attempt 1 secured at wave 10: 300s, 45g, 297 kills, four intact works, event-log and verified assay hash `fnv1a32:8b91245f`.
 - The rider explicitly said Era 4 walking changed its plan: distant harvesting pulled the ordering body away, so it abandoned the full fort in favor of central repairs, builds, and HOLD. Three beacons and one turret were enough.
 - The submitted tape carries build `81caa6956`, era 4, and the full engine hash. The public WATCH response was incomplete: `.reel.meta` was exactly `{"buildId":"81caa6956"}`, omitting `era` and `engineHash`.
+
+## generation 7 — 2026-08-31T00:10:00+07:00
+model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d5b04061596bdf43b313a0e430229a46d10e67e52877c6394b61aea05efd389a · contracts: e1-night-shift
+
+- All three launches ended on shim HTTP 429 after their bounded retries under concurrent party load; no terminal tape or post-run reflection exists.
+- Retained partial states were wave 3 / 90.03s / 92 HP / 15g, wave 1 / 30s / 100 HP / 5g, and wave 2 / 60.03s / 37.6 HP / 9g.
+- With no reflection, Era 4 walking acknowledgement is unobserved. Serialize the next OpenClaw map; this row measures transport capacity, not a Night Shift strategy verdict.
