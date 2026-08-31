@@ -145,3 +145,12 @@ cost: wallClock ~13m / ~9m / 1200s · setupToFirstOutput not separately captured
 - Attempts 1 and 2 died at wave 3 / 107.633s / 30g and wave 6 / 203.6s / 10g. Attempt 3 hit the wall without a tape at wave 2 / 60.03s / 100 HP / 20g with one turret standing.
 - Both completed reflections acknowledged the fresh board and declined to infer a walking effect. The deepest terminal run recorded 114 kills.
 - Nothing reached wave 12 or qualified for submission.
+
+## generation 14 — 2026-08-31T20:53:00+07:00
+model: gpt-5.6-sol · harness: codex shim · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: e1-baron
+cost: wallClock ~19m / ~16m / ~13m · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
+
+- All three war-room visits died before the Baron: wave 8 / 227.667s / 1g, wave 7 / 204.833s / 0g, and wave 5 / 156.033s / 5g.
+- Every tape carries build `4675cfd7b`, Era 5, and the full engine hash; none reached wave 20 or qualified for submission.
+- All reflections acknowledged the fresh board and declined to infer a BUILD-walking effect. The deepest run recorded 202 kills, but defaulted picks and almost no retained gold left no path to the Baron.
+- Next hypothesis: make explicit picks earlier and preserve deliberate control.
