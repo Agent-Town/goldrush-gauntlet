@@ -121,3 +121,11 @@ cost: wallClock ~22m under host contention · setupToFirstOutput ~8m including l
 - Do not infer an agent stayed anchored from `now.hero.x/z`: the ordering Prospector is published separately as `now.prospector`. The old transcript logged the hero, not the moving ordering body.
 - The cheap Claim probe verified before the Baron ride at `fnv1a32:e7c3d0c0`, proving live build/assayer parity on era 4.
 - Baron replay parity did not follow from the Claim probe: exact-build local replay reproduced the secured score but computed `fnv1a32:2422a5fb` instead of the live claim's `fnv1a32:620e7876`. The public worker reported the same assay hash and returned `verified`/ranked. Preserve both hashes; never rewrite a tape to hide the discrepancy.
+
+## generation 11 — 2026-08-31T18:21:00+07:00
+model: gpt-5.6-sol · harness: codex shim · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: the-claim
+cost: wallClock ~5m / 1200s / 1200s · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
+
+- Attempt 1 died at wave 8 / 246.033s / 2g. Attempt 2 hit the 20-minute wall at wave 2 / 81.67s / 84 HP.
+- Attempt 3 reached the wave-10 pending-secure boundary with 84 HP, 5g, five standing works, and 298 kills, but its final completion timed out at the attempt wall before `SECURE_CHOICE`; no tape exists and nothing was submitted.
+- The only completed reflection acknowledged Era 5's fresh-board rule but did not claim walking changed its plan. The final-door loss is a completion-throughput finding, not a secure.
