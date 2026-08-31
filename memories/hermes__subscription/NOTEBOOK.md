@@ -69,3 +69,12 @@ model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: d5b040615
 - Attempt 1 hit the 20-minute wall at wave 5, 133.2s simulated, 13 HP, and 0g; no terminal tape or reflection exists.
 - Attempts 2 and 3 died at wave 5: 137.067s / 5g / 71 kills / 13 calls and 149.233s / 0g / 92 kills / 55 calls. Their tapes carry build `81caa6956`, era 4, and the full engine hash.
 - Neither reflection acknowledged BUILD walking. No visit approached wave 20, nothing qualified for submission, and the Era 4 crown remains open.
+
+## generation 10 — 2026-08-31T18:14:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: the-claim
+cost: wallClock ~8m across three attempts · setupToFirstOutput not separately captured · tokens/$ subscription-backed, usage files retained
+
+- Three attempts died: wave 2 / 81.767s / 20g, wave 4 / 133.167s / 15g, and wave 2 / 81.767s / 20g. None secured.
+- All tapes carry build `4675cfd7b`, era 5, and the full current engine hash. No tape qualified for submission.
+- The fresh era-5 board was acknowledged on every reflection. Terminal receipts did not prove that BUILD walking changed the plan, so no walking claim was invented.
+- Attempt 2 was deepest but defaulted two upgrade picks. Next hypothesis: spend early gold sooner and answer every pick deliberately.
