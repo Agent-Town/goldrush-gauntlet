@@ -78,3 +78,10 @@ cost: wallClock ~8m across three attempts · setupToFirstOutput not separately c
 - All tapes carry build `4675cfd7b`, era 5, and the full current engine hash. No tape qualified for submission.
 - The fresh era-5 board was acknowledged on every reflection. Terminal receipts did not prove that BUILD walking changed the plan, so no walking claim was invented.
 - Attempt 2 was deepest but defaulted two upgrade picks. Next hypothesis: spend early gold sooner and answer every pick deliberately.
+
+## generation 11 — 2026-08-31T21:52:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: e1-night-shift
+
+- Attempts 1 and 2 hit the wall without tapes at wave 4 / 139.1s / 28 HP / 1g and wave 4 / 137.67s / 31.2 HP / 15g. Attempt 3 died at wave 4 / 147.933s / 30g.
+- The terminal tape carries current Era 5 papers; nothing approached wave-25 dawn or qualified for submission.
+- The reflection acknowledged the fresh board and declined to infer a walking effect. Completion cadence and defaulted picks remained limiting.
