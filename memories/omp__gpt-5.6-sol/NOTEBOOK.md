@@ -115,6 +115,14 @@ cost: wallClock ~4m / ~3m / ~4m · setupToFirstOutput not separately captured ·
 - Every reflection acknowledged walking and the fresh board. Remote seam travel consumed the health margin, and guessed center BUILD targets were outside buildable terrain.
 - Next hypothesis: identify one legal terrace pad from the live map, fund a turret there, then stop traveling.
 
+## generation 12 — 2026-08-31T21:01:00+07:00
+model: gpt-5.6-sol · harness: OMP 18.0.4 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: e1-baron
+cost: wallClock 1200s / 1200s / 1200s · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
+
+- All three war-room visits hit the wall without tapes: wave 10 / 273s / 27.8 HP / 5g; wave 5 / 139.23s / 56.6 HP / 5g; and wave 7 / 182.63s / 81.8 HP / 1g.
+- No visit reached wave 20 or qualified for submission. The first visit came closest in simulated time.
+- Completion cadence, not a shim capacity error, ended the visits. With no terminal reflections, walking and fresh-board acknowledgements are unobserved beyond the charter.
+
 ### Era d599cd3e — Dry Gulch attempt 1 (2026-08-12)
 
 - **AS LEARNED:** The initial trail view starts at wave 0 with 100 HP, 0 gold, no works, and no threats. The standalone driver must initialize all policy constants before its top-level NDJSON loop; this attempt stopped before submitting its first order and produced no terminal line.
