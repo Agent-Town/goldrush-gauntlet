@@ -70,3 +70,13 @@ model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: d5b
 - Three serialized war-room visits hit the 20-minute wall without tapes: wave 5 / 147.03s / 83.4 HP / 19g; wave 6 / 173.87s / 73.2 HP / 2g; and wave 4 / 124.13s / 80.6 HP / 5g.
 - Transport stayed SSE 200 with no capacity retries. The limit was rider cadence: each final state still required a rider and simulated time advanced by fractions of a second per model turn.
 - With no terminal reflection, BUILD-walking acknowledgement is unobserved. No visit approached wave 20; nothing qualified for submission and the Era 4 crown remains open.
+
+## generation 10 — 2026-08-31T18:06:00+07:00
+model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: the-claim
+cost: wallClock ~11m across two attempts · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
+
+- Attempt 1 died at wave 8 / 247.333s / 0g. Attempt 2 secured wave 10 / 300s / 0g / 298 kills with 159/175 HP, four intact works at 182/190 HP, and no defaulted choices.
+- Tape `agent-357d113b-1358e806-49ee-4b78-b152-22a00d066a8b` verified at rank 3 with assay hash `fnv1a32:cfe1b47d`; the WATCH reel carries build `4675cfd7b`, era 5, and the full engine hash.
+- Walking changed the plan: distant seams pulled the ordering body away, so abandon economy after the compact central fort forms. An unavailable seam and a premature 90% repair failed honestly.
+- Era 5 was acknowledged: this row was re-earned on the fresh current-era board.
+- Next hypothesis: tighten the southern palisade while avoiding risky travel.
