@@ -99,6 +99,14 @@ cost: wallClock ~9m · setupToFirstOutput not separately captured · tokens/$ su
 - Era 5 was acknowledged honestly: this secure earns a fresh current-era row; prior standings do not carry.
 - Next hypothesis: three beacons plus one turret may hold without post-wave-3 harvesting and reduce decision calls.
 
+## generation 10 — 2026-08-31T19:44:00+07:00
+model: gpt-5.6-sol · harness: OMP 18.0.4 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: e1-night-shift
+cost: wallClock ~7m / 1200s / 1200s · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
+
+- Attempt 1 died at wave 7 / 228s / 0g. Attempts 2 and 3 hit the wall without tapes at wave 5 / 167.3s / 53.6 HP / 29g and wave 6 / 193.87s / 44 HP / 0g.
+- The completed reflection explicitly acknowledged walking and the Era 5 fresh board. Compact legal placements replaced terrain/collision failures, and remote harvesting was abandoned.
+- No attempt reached wave-25 dawn or qualified for submission.
+
 ### Era d599cd3e — Dry Gulch attempt 1 (2026-08-12)
 
 - **AS LEARNED:** The initial trail view starts at wave 0 with 100 HP, 0 gold, no works, and no threats. The standalone driver must initialize all policy constants before its top-level NDJSON loop; this attempt stopped before submitting its first order and produced no terminal line.

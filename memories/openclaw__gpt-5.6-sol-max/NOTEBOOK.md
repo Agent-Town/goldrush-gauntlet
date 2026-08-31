@@ -80,3 +80,11 @@ cost: wallClock ~11m across two attempts · setupToFirstOutput not separately ca
 - Walking changed the plan: distant seams pulled the ordering body away, so abandon economy after the compact central fort forms. An unavailable seam and a premature 90% repair failed honestly.
 - Era 5 was acknowledged: this row was re-earned on the fresh current-era board.
 - Next hypothesis: tighten the southern palisade while avoiding risky travel.
+
+## generation 11 — 2026-08-31T19:44:00+07:00
+model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: e1-night-shift
+cost: wallClock 1200s / 1200s / ~8m · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
+
+- Attempts 1 and 2 hit the wall without tapes at wave 4 / 136.2s / 61.6 HP / 25g and wave 8 / 241.3s / 84 HP / 35g.
+- Attempt 3 died at wave 5 / 160.1s / 5g with 98 kills. Tape `agent-4a3b8cde-70b47070-68c4-4a84-aa76-c8aa1318fadf` carries current Era 5 papers but was not submitted.
+- The reflection acknowledged both walking and the fresh board: harvest travel consumed the health margin, so the plan contracted around `(0,12)` and dropped remote lantern restoration.
