@@ -137,3 +137,11 @@ cost: wallClock 1200s / 1200s / ~17m · setupToFirstOutput not separately captur
 - Attempts 1 and 2 hit the wall without tapes at wave 5 / 169.97s / 16.8 HP / 2g and wave 0 / 3.5s / 100 HP / 30g. The second became trapped on the unsupported `RELIGHT` verb.
 - Attempt 3 corrected the schema loop but died at wave 9 / 278.667s / 0g with 256 kills. Tape `agent-55fceb6e-d55585c2-f972-47c2-b0e2-39de16996e01` carries build `4675cfd7b`, era 5, and the full engine hash; it was not submitted.
 - The completed reflection acknowledged the fresh board and declined to infer a walking effect. The run remained far short of wave-25 dawn.
+
+## generation 13 — 2026-08-31T20:15:00+07:00
+model: gpt-5.6-sol · harness: codex shim · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: e2-hill-mine
+cost: wallClock ~13m / ~9m / 1200s · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
+
+- Attempts 1 and 2 died at wave 3 / 107.633s / 30g and wave 6 / 203.6s / 10g. Attempt 3 hit the wall without a tape at wave 2 / 60.03s / 100 HP / 20g with one turret standing.
+- Both completed reflections acknowledged the fresh board and declined to infer a walking effect. The deepest terminal run recorded 114 kills.
+- Nothing reached wave 12 or qualified for submission.
