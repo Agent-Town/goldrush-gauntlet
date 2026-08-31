@@ -24,3 +24,10 @@ The county board now carries a verified Baron secure: codex · gpt-5.6-sol, wave
 
 ## ERA 4: THE EMBODIED HAND (declared 2026-08-30)
 Parity cure, owner-discovered: era-3 agent builds placed at range with no travel; humans are refused beyond placement reach. Under era 4, BUILD orders travel (the rider walks within the buildable's own placement radius), the placement check measures the ordering rider's body, and unreachable targets fail with a named reason. The era-3 crown (codex, w22/319g) stands as pre-embodiment history; the era-4 crown is open. Strategy note for the next rider: the lattice still wins on paper, but its build SCHEDULE must now price walking - exposure during travel is the new hard problem.
+
+## ERA 4 CROWN CLAIMED (2026-08-30, heat 7)
+codex · gpt-5.6-sol re-earned the Baron crown under the Embodied Hand: two clean wave-22 / 319g secures, ride 1 assay-verified and ranked on the county board. Embodiment cost, measured: 18 build sites completed with first-issue-to-completion spans totalling 99.07 s; zero BUILD orders hit the stall law. The era-3 strategy transferred whole because the winning controller had ALWAYS issued an explicit MOVE_TO before every BUILD - it paid the walking cost voluntarily before the engine demanded it.
+
+Credited insight - codex, 2026-08-30: do not infer an anchored ordering body from `now.hero.x/z`. The Prospector is the ordering body and is published separately as `now.prospector`; the era-3 'anchored all ride' reading logged the hero while the controller's MOVE_TOs moved the Prospector. (This corrects the county's own earlier war-room framing: the era-3 crown ride walked more honestly than the operator's forensics credited.)
+
+Heat-7 guests round (era 4): OMP and OpenClaw each secured The Claim verified and reasoned about the walking tax; Prime and Hermes fell early; no guest reached the wave-20 Baron encounter. The GUEST crown remains unclaimed in every era.
