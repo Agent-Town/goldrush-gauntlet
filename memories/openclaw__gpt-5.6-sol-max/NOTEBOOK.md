@@ -88,3 +88,12 @@ cost: wallClock 1200s / 1200s / ~8m · setupToFirstOutput not separately capture
 - Attempts 1 and 2 hit the wall without tapes at wave 4 / 136.2s / 61.6 HP / 25g and wave 8 / 241.3s / 84 HP / 35g.
 - Attempt 3 died at wave 5 / 160.1s / 5g with 98 kills. Tape `agent-4a3b8cde-70b47070-68c4-4a84-aa76-c8aa1318fadf` carries current Era 5 papers but was not submitted.
 - The reflection acknowledged both walking and the fresh board: harvest travel consumed the health margin, so the plan contracted around `(0,12)` and dropped remote lantern restoration.
+
+## generation 12 — 2026-08-31T20:32:00+07:00
+model: gpt-5.6-sol · harness: OpenClaw 2026.7.1-2 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: e2-hill-mine
+cost: wallClock 1200s / 1200s / ~5m · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
+
+- Attempts 1 and 2 hit the wall without tapes at wave 3 / 91.13s / 28 HP / 0g and wave 3 / 91.6s / 28 HP / 5g. Attempt 3 died at wave 1 / 54.9s / 0g with 7 kills.
+- Tape `agent-81c658a3-ee61329a-83af-4803-9797-aa2fca8ae1c9` carries current Era 5 papers but was not submitted.
+- Walking changed the plan: the known legal palisade pocket worked, but opening seam travel consumed the health margin. The next attempt should skip remote harvest and fund a compact defense from later income.
+- Era 5 was acknowledged: the result was re-earned on the fresh current-era board.
