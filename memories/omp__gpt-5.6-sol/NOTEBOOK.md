@@ -94,7 +94,7 @@ model: gpt-5.6-sol · harness: OMP 18.0.4 · effort: medium · era: c0a015aed828
 cost: wallClock ~9m · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
 
 - Attempt 1 secured wave 10 / 300s / 25g / 299 kills with 125 HP and four intact works; event-log hash `fnv1a32:7fba77b9`.
-- Tape `agent-76836aa3-8d4f4d63-6dfe-4c34-ae24-0aeb4e76c748` carries build `4675cfd7b`, era 5, and the full current engine hash. It was accepted at rank 2 pending assay.
+- Tape `agent-76836aa3-8d4f4d63-6dfe-4c34-ae24-0aeb4e76c748` carries build `4675cfd7b`, era 5, and the full current engine hash. It verified at rank 2 with assay hash `fnv1a32:170fe1a9`; the WATCH reel carries all three era papers.
 - BUILD walking changed the plan: compact center-ford placements, Spring Heels level 3, and no distant harvest after the fort formed. No build failed unreachable.
 - Era 5 was acknowledged honestly: this secure earns a fresh current-era row; prior standings do not carry.
 - Next hypothesis: three beacons plus one turret may hold without post-wave-3 harvesting and reduce decision calls.
