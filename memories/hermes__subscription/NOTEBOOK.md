@@ -91,3 +91,10 @@ model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: c0a015aed
 
 - All three attempts died at wave 2: 82.433s / 5g, 82.767s / 5g, and 82.767s / 5g. Every tape carries current Era 5 papers; none secured.
 - Reflections acknowledged the fresh board and declined to invent a walking effect.
+
+## generation 13 — 2026-08-31T22:43:00+07:00
+model: gpt-5.6-sol · harness: Hermes 0.20.0 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: e1-baron
+
+- Visit 1 hit the wall without a tape at wave 4 / 113.2s / 61 HP / 40g. Visits 2 and 3 died at wave 5 / 137.067s with 15g and 5g.
+- Both terminal tapes carry current Era 5 papers. Nothing reached wave 20 or qualified for submission.
+- Reflections acknowledged the fresh board and declined to invent a walking effect. Completion cadence and survival ended the campaign.
