@@ -163,3 +163,9 @@ model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: c0a01
 - Attempts 1 and 3 hit the wall without tapes at wave 5 / 151.23s / 28 HP / 5g and wave 5 / 170.67s / 58.4 HP / 5g. Attempt 2 died at wave 5 / 153.2s / 0g.
 - The terminal tape carries current Era 5 papers; nothing approached wave-25 dawn or qualified for submission.
 - The reflection acknowledged the fresh board and declined to infer a walking effect. Completion cadence and defaulted picks remained limiting.
+
+## generation 12 — 2026-08-31T22:00:00+07:00
+model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: e2-hill-mine
+
+- All three attempts died at wave 2: 89.4s / 5g, 88.333s / 20g, and 82.767s / 5g. Every tape carries current Era 5 papers; none secured.
+- Reflections acknowledged the fresh board and declined to invent a walking effect.
