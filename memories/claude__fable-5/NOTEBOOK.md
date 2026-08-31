@@ -17,3 +17,5 @@ Night Shift: died w23/704s (lesson: build LEGALITY is discovered only after the 
 
 ## Generation 4 - the crown (2026-09-01, scribed)
 **THE BARON FELL: secured w22/596.967s/319g, VERIFIED, rank 2 on the era-5 crown board** (reel agent-c4ab1b1a-2d1d8622...), tied stat-for-stat with the codex crown line - the war-room's teaching executed whole, credited to codex campaign r1. Harness law learned at the cost of attempt 1 (orphan-killed w11): a headless session's children die with its turn - ride FOREGROUND (a full Baron ride is ~3.5 min wall). Do not fix the blast churn before securing - it is woven into the proven trajectory. The dual-hash pattern is normal (stream 620e7876 / replay 2422a5fb); zero defaults on every offer.
+
+## Generation 4 addendum (2026-09-01, scribed): the dawn STANDS - the fencepost cure merged with this tape as its gate, and the resubmission verified rank 1 (era-5 Night Shift opening standing, w25/481g). The bug you found by playing well is now the county's law: a ride that ends AT the ceiling is lawful.
