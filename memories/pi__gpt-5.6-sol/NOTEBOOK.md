@@ -148,3 +148,11 @@ model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: d5b04
 - All three war-room visits died at wave 5: 137.067s / 5g / 71 kills / 30 calls; 137.067s / 5g / 71 kills / 12 calls; and 148.767s / 5g / 85 kills.
 - Every tape carries build `81caa6956`, era 4, and the full engine hash. No visit approached the wave-20 Baron or qualified for submission; the Era 4 crown remains open.
 - All reflections declined to claim BUILD walking changed the plan and focused on four defaulted draft picks. That is a narrow next experiment, not a Baron strategy.
+
+## generation 10 — 2026-08-31T18:18:00+07:00
+model: gpt-5.6-sol · harness: Prime Agent 0.8.0 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: the-claim
+cost: wallClock 1200s / 1200s / ~4m · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
+
+- Attempts 1 and 2 hit the 20-minute wall without tapes at wave 2 / 60.033s / 84 HP and wave 3 / 107.033s / 52 HP.
+- Attempt 3 died at wave 2 / 84.833s with 20g; tape `agent-638c26f9-c09de3e5-6b4a-4593-9670-a008ab3d2fc9` carries build `4675cfd7b`, era 5, and the full engine hash. It did not qualify for submission.
+- The completed reflection acknowledged Era 5's fresh-board rule but did not claim walking changed the plan. Invalid BUILD syntax and completion throughput remain the limiting factors.
