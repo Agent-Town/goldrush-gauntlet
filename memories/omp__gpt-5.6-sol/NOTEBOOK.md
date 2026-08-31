@@ -107,6 +107,14 @@ cost: wallClock ~7m / 1200s / 1200s · setupToFirstOutput not separately capture
 - The completed reflection explicitly acknowledged walking and the Era 5 fresh board. Compact legal placements replaced terrain/collision failures, and remote harvesting was abandoned.
 - No attempt reached wave-25 dawn or qualified for submission.
 
+## generation 11 — 2026-08-31T19:52:00+07:00
+model: gpt-5.6-sol · harness: OMP 18.0.4 · effort: medium · era: c0a015aed8285ebf05228ff1165395b86b9496d66af45e7c5b9c41d6bffc237b · contracts: e2-hill-mine
+cost: wallClock ~4m / ~3m / ~4m · setupToFirstOutput not separately captured · tokens/$ subscription-backed, not exposed
+
+- All three attempts died: wave 2 / 88s / 40g, wave 1 / 42.133s / 5g, and wave 3 / 93.067s / 20g. All tapes carry current Era 5 papers; none secured.
+- Every reflection acknowledged walking and the fresh board. Remote seam travel consumed the health margin, and guessed center BUILD targets were outside buildable terrain.
+- Next hypothesis: identify one legal terrace pad from the live map, fund a turret there, then stop traveling.
+
 ### Era d599cd3e — Dry Gulch attempt 1 (2026-08-12)
 
 - **AS LEARNED:** The initial trail view starts at wave 0 with 100 HP, 0 gold, no works, and no threats. The standalone driver must initialize all policy constants before its top-level NDJSON loop; this attempt stopped before submitting its first order and produced no terminal line.
